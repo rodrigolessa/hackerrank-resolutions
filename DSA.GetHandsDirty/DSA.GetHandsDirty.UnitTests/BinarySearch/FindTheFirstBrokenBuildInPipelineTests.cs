@@ -1,6 +1,4 @@
 using DSA.GetHandsDirty.BinarySearch;
-using FluentAssertions;
-using Microsoft.VisualStudio.TestPlatform.ObjectModel;
 
 namespace DSA.GetHandsDirty.UnitTests.BinarySearch;
 
@@ -18,7 +16,7 @@ public class FindTheFirstBrokenBuildInPipelineTests
         var builds = Enumerable.Range(1001, maxRange).ToArray();
         var result = FindTheFirstBrokenBuildInPipeline.Find(builds, buildId => buildId >= firstBrokenBuild, out var steps);
 
-        result.Should().Be(firstBrokenBuild);
-        steps.Should().Be(expectedSteps);
+        result.ShouldBe(firstBrokenBuild);
+        steps.ShouldBe(expectedSteps);
     }
 }

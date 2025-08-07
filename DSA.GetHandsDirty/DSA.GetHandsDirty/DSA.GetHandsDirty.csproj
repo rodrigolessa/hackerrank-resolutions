@@ -9,7 +9,12 @@
     <ItemGroup>
       <Folder Include="ExponentialSearch\" />
       <Folder Include="HashMapProblems\" />
+      <Folder Include="LinkedListProblems\" />
       <Folder Include="SlidingWindow\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DSA.MyDataStructures\DSA.MyDataStructures.csproj" />
     </ItemGroup>
 
 </Project>

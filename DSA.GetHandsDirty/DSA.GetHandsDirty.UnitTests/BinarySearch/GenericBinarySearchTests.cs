@@ -1,5 +1,4 @@
 using DSA.GetHandsDirty.BinarySearch;
-using FluentAssertions;
 
 namespace DSA.GetHandsDirty.UnitTests.BinarySearch;
 
@@ -18,7 +17,7 @@ public class GenericBinarySearchTests
         var numbers = Enumerable.Range(initRange, maxRange).ToArray();
         var result = GenericBinarySearch.Find(numbers, numberToFind, initRange, maxRange, out var steps);
 
-        result.Should().Be(numberToFind - 1);
-        steps.Should().Be(expectedSteps);
+        result.ShouldBe(numberToFind - 1);
+        steps.ShouldBe(expectedSteps);
     }
 }

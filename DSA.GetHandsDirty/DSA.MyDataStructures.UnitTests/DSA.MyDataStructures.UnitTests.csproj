@@ -24,7 +24,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\DSA.GetHandsDirty\DSA.GetHandsDirty.csproj" />
       <ProjectReference Include="..\DSA.MyDataStructures\DSA.MyDataStructures.csproj" />
     </ItemGroup>
 

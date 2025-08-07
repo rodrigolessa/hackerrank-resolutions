@@ -5,33 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09163efd-6e0b-401b-9c36-808471f21a82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinarySearch/FindTheFirstBrokenBuildInPipelineTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinarySearch/GenericBinarySearchTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinarySearch/FindTheFirstBrokenBuildInPipeline.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinarySearch/GenericBinarySearch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/TextEditorUndoFunction/UndoRedoFunction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyDoublyLinkedListTests.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyDequeue.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyDoublyLinkedList.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyHashMap.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyHeap.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyQueue.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyStack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinarySearch/FindTheFirstBrokenBuildInPipelineTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinarySearch/FindTheFirstBrokenBuildInPipelineTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinarySearch/GenericBinarySearchTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinarySearch/GenericBinarySearchTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/DSA.GetHandsDirty.UnitTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/DSA.GetHandsDirty.UnitTests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GlobalUsings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GlobalUsings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/DSA.GetHandsDirty.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/DSA.GetHandsDirty.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/55c434b75f7a466fbabd019e2ecdbfafb2e200/4b/8ec0527e/MethodBaseInvoker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ae34aa2ad3914561b367229d61931f9539600/8e/9fcb3a58/LinkedListNode`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f9878f643c2ecf1b4ce73234de56c9754a451c835620eae85ca8babbcb5889c4/LateBoundTestFramework.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="30sXoyWXw92Y4XWu7hZuQf2aJvZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,9 +52,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "39315c9c-70f1-4756-90b8-0a2f512df61f.executor": "Debug",
+    "9f8d64c6-37b8-4afe-a2f2-fff5fb26b968.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "e078aee3-3555-4f06-ad8a-7a8c4405be61.executor": "Debug",
     "git-widget-placeholder": "feature/binary-search",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -58,8 +74,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1754417435251</updated>
-      <workItem from="1754417435254" duration="7178000" />
+      <workItem from="1754417435254" duration="13343000" />
+      <workItem from="1754508747876" duration="16923000" />
     </task>
+    <task id="LOCAL-00001" summary="Implement a binary search algorithm">
+      <option name="closed" value="true" />
+      <created>1754487080756</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1754487080756</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,6 +95,8 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Implement a binary search algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement a binary search algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -85,7 +113,51 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyLinkedListTests.cs</url>
+          <line>43</line>
+          <properties documentPath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyLinkedListTests.cs" containingFunctionPresentation="Method 'RemoveFirstPosition_GivenAValidListOfIntegers_ShouldRemoveAndReturnTheHeadValue'">
+            <startOffsets>
+              <option value="1385" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1414" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyLinkedListTests.cs</url>
+          <line>45</line>
+          <properties documentPath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyLinkedListTests.cs" containingFunctionPresentation="Method 'RemoveFirstPosition_GivenAValidListOfIntegers_ShouldRemoveAndReturnTheHeadValue'">
+            <startOffsets>
+              <option value="1479" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1510" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyLinkedListTests.cs</url>
+          <line>87</line>
+          <properties documentPath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyLinkedListTests.cs" containingFunctionPresentation="Method 'Reverse_GivenAValidListOfStrings_ShouldInvertThePositionOfEveryNodeInTheList'">
+            <startOffsets>
+              <option value="2792" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2822" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#DSA.MyDataStructures.MyLinkedList`1" memberName="Tail" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
