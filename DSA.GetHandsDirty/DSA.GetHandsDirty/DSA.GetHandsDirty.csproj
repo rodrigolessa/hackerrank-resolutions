@@ -7,9 +7,9 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Folder Include="ArrayProblems\" />
       <Folder Include="ExponentialSearch\" />
       <Folder Include="HashMapProblems\" />
-      <Folder Include="LinkedListProblems\" />
       <Folder Include="SlidingWindow\" />
     </ItemGroup>
 

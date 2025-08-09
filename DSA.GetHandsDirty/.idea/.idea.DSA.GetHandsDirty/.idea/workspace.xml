@@ -5,21 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09163efd-6e0b-401b-9c36-808471f21a82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/TextEditorUndoFunction/UndoRedoFunction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyDoublyLinkedListTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/ArrayProblems/ReverseAnEntireStringTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/ArrayProblems/ReverseWordsLettersInAStringTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/ArrayProblems/ReverseWordsPositionsInAStringTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/MyTextEditorTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/ReverseBetweenTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/ArrayProblems/StringProblems/ReverseAnEntireString.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/ArrayProblems/StringProblems/ReverseWordsLettersInAString.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/ArrayProblems/StringProblems/ReverseWordsPositionsInAString.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/ReverseBetween.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/ReverseSubsection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/TextEditorUndoFunction/MyTextEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/Abstractions/IMyLinkedList.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyDequeue.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyDoublyLinkedList.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyHashMap.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyHeap.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyQueue.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyStack.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinarySearch/FindTheFirstBrokenBuildInPipelineTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinarySearch/FindTheFirstBrokenBuildInPipelineTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinarySearch/GenericBinarySearchTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinarySearch/GenericBinarySearchTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/DSA.GetHandsDirty.UnitTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/DSA.GetHandsDirty.UnitTests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GlobalUsings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GlobalUsings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/DSA.GetHandsDirty.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/DSA.GetHandsDirty.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/MyLinkedList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyLinkedList.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +38,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/55c434b75f7a466fbabd019e2ecdbfafb2e200/4b/8ec0527e/MethodBaseInvoker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ae34aa2ad3914561b367229d61931f9539600/8e/9fcb3a58/LinkedListNode`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d11a2737ca35a566a9df82947e9c6ee87f0145228c62c4bd76a213890715ba4/ShouldlyCoreExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f9878f643c2ecf1b4ce73234de56c9754a451c835620eae85ca8babbcb5889c4/LateBoundTestFramework.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
@@ -75,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1754417435251</updated>
       <workItem from="1754417435254" duration="13343000" />
-      <workItem from="1754508747876" duration="16923000" />
+      <workItem from="1754508747876" duration="46600000" />
     </task>
     <task id="LOCAL-00001" summary="Implement a binary search algorithm">
       <option name="closed" value="true" />
@@ -85,7 +93,23 @@
       <option name="project" value="LOCAL" />
       <updated>1754487080756</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Replace the package FluentAssertion with Shouldly">
+      <option name="closed" value="true" />
+      <created>1754595291790</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1754595291790</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Implement a linked list structure">
+      <option name="closed" value="true" />
+      <created>1754595343560</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1754595343560</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,7 +120,9 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Implement a binary search algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement a binary search algorithm" />
+    <MESSAGE value="Replace the package FluentAssertion with Shouldly" />
+    <MESSAGE value="Implement a linked list structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement a linked list structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -151,6 +177,32 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/ArrayProblems/ReverseWordsPositionsInAStringTests.cs</url>
+          <line>21</line>
+          <properties documentPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/ArrayProblems/ReverseWordsPositionsInAStringTests.cs" containingFunctionPresentation="Method 'Reverse_GivenAStringWithBlankSpacesAtTheBeginningAndTheEnd_ShouldInvertAndRemoveTheSpaces'">
+            <startOffsets>
+              <option value="729" />
+            </startOffsets>
+            <endOffsets>
+              <option value="757" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/ArrayProblems/ReverseWordsPositionsInAStringTests.cs</url>
+          <line>30</line>
+          <properties documentPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/ArrayProblems/ReverseWordsPositionsInAStringTests.cs" containingFunctionPresentation="Method 'Reverse_GivenAStringWhitMoreThenOneBlankSpaceBetweenWords_ShouldReduceToASingleSpace'">
+            <startOffsets>
+              <option value="1045" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1073" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

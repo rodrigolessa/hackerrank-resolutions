@@ -1,21 +1,22 @@
 ﻿using System.Diagnostics;
 using System.Runtime;
+using DSA.MyDataStructures.Abstractions;
 
 namespace DSA.MyDataStructures;
 
 public class MyLinkedNode<T>(T value)
 {
-    public T Value { get; init; } = value;
+    public T Value { get; set; } = value;
     public MyLinkedNode<T>? Previous { get; set; }
     public MyLinkedNode<T>? Next { get; set; }
 }
 
-public class MyLinkedList<T>
+public class MyLinkedList<T> : IMyLinkedList<T>
 {
     public MyLinkedNode<T>? Head { get; set; }
     public MyLinkedNode<T>? Tail { get; set; }
 
-    public void AddInFirstPosition(T value)
+    public IMyLinkedList<T> AddInFirstPosition(T value)
     {
         var node = new MyLinkedNode<T>(value);
         if (Head is not null)
@@ -25,9 +26,11 @@ public class MyLinkedList<T>
 
         Head = node;
         Tail ??= node;
+        
+        return this;
     }
 
-    public void AddInLastPosition(T value)
+    public IMyLinkedList<T> AddInLastPosition(T value)
     {
         var node = new MyLinkedNode<T>(value);
         if (Tail is not null)
@@ -37,6 +40,8 @@ public class MyLinkedList<T>
 
         Tail = node;
         Head ??= node;
+
+        return this;
     }
 
     public T? RemoveFirstPosition()
