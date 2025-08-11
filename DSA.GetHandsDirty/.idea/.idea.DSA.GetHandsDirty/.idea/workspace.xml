@@ -5,26 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09163efd-6e0b-401b-9c36-808471f21a82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/ArrayProblems/ReverseAnEntireStringTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/ArrayProblems/ReverseWordsLettersInAStringTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/ArrayProblems/ReverseWordsPositionsInAStringTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/MyTextEditorTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/ReverseBetweenTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/ArrayProblems/StringProblems/ReverseAnEntireString.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/ArrayProblems/StringProblems/ReverseWordsLettersInAString.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/ArrayProblems/StringProblems/ReverseWordsPositionsInAString.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/ReverseBetween.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/ReverseSubsection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/TextEditorUndoFunction/MyTextEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/Abstractions/IMyLinkedList.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyDequeue.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyHashMap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyHeap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyQueue.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyStack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/SlindingWindow/FindSequenceThatDoesNotRepeatTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/SlidingWindow/FindSequenceThatDoesNotRepeat.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/DSA.GetHandsDirty.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/DSA.GetHandsDirty.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/MyLinkedList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyLinkedList.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +22,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/55c434b75f7a466fbabd019e2ecdbfafb2e200/4b/8ec0527e/MethodBaseInvoker.cs" root0="FORCE_HIGHLIGHTING" />
@@ -58,23 +44,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "39315c9c-70f1-4756-90b8-0a2f512df61f.executor": "Debug",
-    "9f8d64c6-37b8-4afe-a2f2-fff5fb26b968.executor": "Debug",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "e078aee3-3555-4f06-ad8a-7a8c4405be61.executor": "Debug",
-    "git-widget-placeholder": "feature/binary-search",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;39315c9c-70f1-4756-90b8-0a2f512df61f.executor&quot;: &quot;Debug&quot;,
+    &quot;9f8d64c6-37b8-4afe-a2f2-fff5fb26b968.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;e078aee3-3555-4f06-ad8a-7a8c4405be61.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/binary-search&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="09163efd-6e0b-401b-9c36-808471f21a82" name="Changes" comment="" />
@@ -83,7 +69,9 @@
       <option name="presentableId" value="Default" />
       <updated>1754417435251</updated>
       <workItem from="1754417435254" duration="13343000" />
-      <workItem from="1754508747876" duration="46600000" />
+      <workItem from="1754508747876" duration="48755000" />
+      <workItem from="1754787226239" duration="3749000" />
+      <workItem from="1754934972902" duration="2664000" />
     </task>
     <task id="LOCAL-00001" summary="Implement a binary search algorithm">
       <option name="closed" value="true" />
@@ -109,7 +97,39 @@
       <option name="project" value="LOCAL" />
       <updated>1754595343560</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Improve linked list implementation">
+      <option name="closed" value="true" />
+      <created>1754698883803</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1754698883803</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Real world linked list problem">
+      <option name="closed" value="true" />
+      <created>1754698921318</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1754698921318</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Array problems">
+      <option name="closed" value="true" />
+      <created>1754698940735</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1754698940735</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Empty structures">
+      <option name="closed" value="true" />
+      <created>1754698953625</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1754698953625</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +142,11 @@
     <MESSAGE value="Implement a binary search algorithm" />
     <MESSAGE value="Replace the package FluentAssertion with Shouldly" />
     <MESSAGE value="Implement a linked list structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement a linked list structure" />
+    <MESSAGE value="Improve linked list implementation" />
+    <MESSAGE value="Real world linked list problem" />
+    <MESSAGE value="Array problems" />
+    <MESSAGE value="Empty structures" />
+    <option name="LAST_COMMIT_MESSAGE" value="Empty structures" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -204,6 +228,19 @@
           </properties>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DSA.GetHandsDirty/SlidingWindow/FindSequenceThatDoesNotRepeat.cs</url>
+          <line>17</line>
+          <properties documentPath="$PROJECT_DIR$/DSA.GetHandsDirty/SlidingWindow/FindSequenceThatDoesNotRepeat.cs" containingFunctionPresentation="Method 'Find'">
+            <startOffsets>
+              <option value="444" />
+            </startOffsets>
+            <endOffsets>
+              <option value="452" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -211,5 +248,10 @@
         <PinnedItemInfo parentTag="Type#DSA.MyDataStructures.MyLinkedList`1" memberName="Tail" />
       </pinned-members>
     </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="RiderUnitTests">
+        <watch expression="input[right]" language="C#" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

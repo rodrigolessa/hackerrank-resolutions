@@ -10,7 +10,6 @@
       <Folder Include="ArrayProblems\" />
       <Folder Include="ExponentialSearch\" />
       <Folder Include="HashMapProblems\" />
-      <Folder Include="SlidingWindow\" />
     </ItemGroup>
 
     <ItemGroup>
