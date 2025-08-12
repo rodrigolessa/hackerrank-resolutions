@@ -8,7 +8,6 @@
 
     <ItemGroup>
       <Folder Include="ArrayProblems\" />
-      <Folder Include="ExponentialSearch\" />
       <Folder Include="HashMapProblems\" />
     </ItemGroup>
 

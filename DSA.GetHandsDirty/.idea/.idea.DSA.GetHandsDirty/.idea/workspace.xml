@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09163efd-6e0b-401b-9c36-808471f21a82" name="Changes" comment="" />
+    <list default="true" id="09163efd-6e0b-401b-9c36-808471f21a82" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/ExponentialSearch/GenericExponentialSearchTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/ExponentialSearch/GenericExponentialSearch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/DSA.GetHandsDirty.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/DSA.GetHandsDirty.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +71,8 @@
       <workItem from="1754417435254" duration="13343000" />
       <workItem from="1754508747876" duration="48755000" />
       <workItem from="1754787226239" duration="3749000" />
-      <workItem from="1754934972902" duration="3050000" />
+      <workItem from="1754934972902" duration="3143000" />
+      <workItem from="1754955896488" duration="3459000" />
     </task>
     <task id="LOCAL-00001" summary="Implement a binary search algorithm">
       <option name="closed" value="true" />
@@ -132,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754938021775</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update workspace">
+      <option name="closed" value="true" />
+      <created>1754938100299</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1754938100299</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +164,8 @@
     <MESSAGE value="Array problems" />
     <MESSAGE value="Empty structures" />
     <MESSAGE value="Add slinding window solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add slinding window solution" />
+    <MESSAGE value="Update workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update workspace" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -244,6 +259,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DSA.GetHandsDirty/BinarySearch/GenericBinarySearch.cs</url>
+          <line>6</line>
+          <properties documentPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinarySearch/GenericBinarySearch.cs" containingFunctionPresentation="Method 'Find'">
+            <startOffsets>
+              <option value="195" />
+            </startOffsets>
+            <endOffsets>
+              <option value="205" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
