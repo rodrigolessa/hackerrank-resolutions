@@ -4,7 +4,7 @@ namespace DSA.GetHandsDirty.LinkedListProblems;
 
 public static class FindCircularReference<T>
 {
-    public static bool Find(MyLinkedNode<T> head, out int steps)
+    public static bool HasCycle(MyLinkedNode<T> head, out int steps)
     {
         steps = 0;
         var slow = head;

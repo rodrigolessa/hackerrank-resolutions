@@ -15,7 +15,7 @@ public class FindCircularReferenceTests
         list.AddInLastPosition("D");
         list.AddInLastPosition("E");
         
-        var result = FindCircularReference<string>.Find(list.Head, out var steps);
+        var result = FindCircularReference<string>.HasCycle(list.Head, out var steps);
         
         result.ShouldBeFalse();
         steps.ShouldBe(2); // The best case scenario should be O(n). Cresce proporcionalmente ao tamanho da lista;
@@ -33,7 +33,7 @@ public class FindCircularReferenceTests
         nodeC.Next = nodeD;
         nodeD.Next = nodeB;
         
-        var result = FindCircularReference<string>.Find(nodeA, out var steps);
+        var result = FindCircularReference<string>.HasCycle(nodeA, out var steps);
         
         result.ShouldBeTrue();
         steps.ShouldBe(3);
