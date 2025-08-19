@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09163efd-6e0b-401b-9c36-808471f21a82" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BubbleSort/GenericBubbleSortTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/FindTheMiddleTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BubbleSort/GenericBubbleSort.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/FindCircularReference.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/FindTheMiddle.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/DSA.GetHandsDirty.UnitTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/DSA.GetHandsDirty.UnitTests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/DSA.GetHandsDirty.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/DSA.GetHandsDirty.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,14 +26,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/55c434b75f7a466fbabd019e2ecdbfafb2e200/4b/8ec0527e/MethodBaseInvoker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ae34aa2ad3914561b367229d61931f9539600/8e/9fcb3a58/LinkedListNode`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d11a2737ca35a566a9df82947e9c6ee87f0145228c62c4bd76a213890715ba4/ShouldlyCoreExtensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f9878f643c2ecf1b4ce73234de56c9754a451c835620eae85ca8babbcb5889c4/LateBoundTestFramework.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BubbleSort/GenericBubbleSortTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/FindTheMiddleTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BubbleSort/GenericBubbleSort.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/FindCircularReference.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/FindTheMiddle.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -50,6 +54,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;e078aee3-3555-4f06-ad8a-7a8c4405be61.executor&quot;: &quot;Debug&quot;,
     &quot;git-widget-placeholder&quot;: &quot;feature/binary-search&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/rodrigo-lessa/github/lng-concurrency-control-mechanism&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -70,6 +75,8 @@
       <workItem from="1754787226239" duration="3749000" />
       <workItem from="1754934972902" duration="3143000" />
       <workItem from="1754955896488" duration="6932000" />
+      <workItem from="1755197524432" duration="235000" />
+      <workItem from="1755486155700" duration="8485000" />
     </task>
     <task id="LOCAL-00001" summary="Implement a binary search algorithm">
       <option name="closed" value="true" />
@@ -151,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754959917863</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add idea in ignore list">
+      <option name="closed" value="true" />
+      <created>1755197560605</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1755197560605</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +186,8 @@
     <MESSAGE value="Add slinding window solution" />
     <MESSAGE value="Update workspace" />
     <MESSAGE value="Exponential Search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exponential Search" />
+    <MESSAGE value="Add idea in ignore list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add idea in ignore list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
