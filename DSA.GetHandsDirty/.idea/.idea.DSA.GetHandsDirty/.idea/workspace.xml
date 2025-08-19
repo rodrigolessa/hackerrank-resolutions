@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09163efd-6e0b-401b-9c36-808471f21a82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BubbleSort/GenericBubbleSortTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/FindTheMiddleTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BubbleSort/GenericBubbleSort.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/FindCircularReferenceTests.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/FindCircularReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/FindTheMiddle.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/DSA.GetHandsDirty.UnitTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/DSA.GetHandsDirty.UnitTests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/DSA.GetHandsDirty.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/DSA.GetHandsDirty.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +22,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BubbleSort/GenericBubbleSortTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/FindCircularReferenceTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/FindTheMiddleTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BubbleSort/GenericBubbleSort.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/FindCircularReference.cs" root0="FORCE_HIGHLIGHTING" />
@@ -76,7 +72,7 @@
       <workItem from="1754934972902" duration="3143000" />
       <workItem from="1754955896488" duration="6932000" />
       <workItem from="1755197524432" duration="235000" />
-      <workItem from="1755486155700" duration="8485000" />
+      <workItem from="1755486155700" duration="11503000" />
     </task>
     <task id="LOCAL-00001" summary="Implement a binary search algorithm">
       <option name="closed" value="true" />
@@ -166,7 +162,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755197560605</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add linked list feature">
+      <option name="closed" value="true" />
+      <created>1755601703559</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1755601703559</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add bubble sort algorithm">
+      <option name="closed" value="true" />
+      <created>1755601740639</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1755601740639</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +199,9 @@
     <MESSAGE value="Update workspace" />
     <MESSAGE value="Exponential Search" />
     <MESSAGE value="Add idea in ignore list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add idea in ignore list" />
+    <MESSAGE value="Add linked list feature" />
+    <MESSAGE value="Add bubble sort algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add bubble sort algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
