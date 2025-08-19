@@ -7,6 +7,9 @@ public static class FindCircularReference<T>
     public static bool HasCycle(MyLinkedNode<T> head, out int steps)
     {
         steps = 0;
+        if (head?.Next is null)
+            return false;
+        
         var slow = head;
         var fast = head;
         while (fast?.Next != null)

@@ -18,7 +18,7 @@ public class ReverseWordsPositionsInAStringTests
     {
         var input = "  hello world  ";
         var expected = "world hello";
-        var reversed = ReverseWordsPositionsInAString.Reverse(input);
+        var reversed = ReverseWordsPositionsInAString.ReverseRemovingSpace(input);
         reversed.ShouldBe(expected);
     }
 
@@ -27,7 +27,7 @@ public class ReverseWordsPositionsInAStringTests
     {
         var input = "a  good   example";
         var expected = "example good a";
-        var reversed = ReverseWordsPositionsInAString.Reverse(input);
+        var reversed = ReverseWordsPositionsInAString.ReverseRemovingSpace(input);
         reversed.ShouldBe(expected);
     }
 }
