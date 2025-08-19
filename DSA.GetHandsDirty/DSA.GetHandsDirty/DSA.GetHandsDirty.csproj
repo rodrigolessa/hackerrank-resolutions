@@ -9,6 +9,7 @@
     <ItemGroup>
       <Folder Include="ArrayProblems\" />
       <Folder Include="HashMapProblems\" />
+      <Folder Include="MergeSorte\" />
     </ItemGroup>
 
     <ItemGroup>
