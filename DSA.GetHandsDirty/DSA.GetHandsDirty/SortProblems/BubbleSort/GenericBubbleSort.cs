@@ -1,4 +1,4 @@
-namespace DSA.GetHandsDirty.BubbleSorte;
+namespace DSA.GetHandsDirty.SortProblems.BubbleSort;
 
 public static class GenericBubbleSort
 {

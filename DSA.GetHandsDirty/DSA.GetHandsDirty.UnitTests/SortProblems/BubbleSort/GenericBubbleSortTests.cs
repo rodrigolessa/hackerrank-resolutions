@@ -1,6 +1,6 @@
-using DSA.GetHandsDirty.BubbleSorte;
+using DSA.GetHandsDirty.SortProblems.BubbleSort;
 
-namespace DSA.GetHandsDirty.UnitTests.BubbleSort;
+namespace DSA.GetHandsDirty.UnitTests.SortProblems.BubbleSort;
 
 public class GenericBubbleSortTests
 {
