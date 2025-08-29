@@ -32,7 +32,6 @@ public class RandomQuickSort
             position++;
         }
         
-        // TODO: Improve this when find a better solution to select a Pivot
         QuickSortCommon.Swap(arr, position, right);
 
         return position;

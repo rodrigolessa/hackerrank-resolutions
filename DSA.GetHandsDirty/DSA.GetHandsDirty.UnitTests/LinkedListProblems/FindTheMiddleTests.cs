@@ -20,7 +20,7 @@ public class FindTheMiddleTests
         myList.AddInFirstPosition(1);
 
         var valueAtTheMiddle = FindTheMiddle<int>.Find(myList.Head);
-        valueAtTheMiddle.ShouldBe(5);
+        valueAtTheMiddle.Value.ShouldBe(5);
     }
     
     [Fact]
@@ -33,6 +33,6 @@ public class FindTheMiddleTests
         myList.AddInFirstPosition(5);
 
         var valueAtTheMiddle = FindTheMiddle<int>.Find(myList.Head);
-        valueAtTheMiddle.ShouldBe(7);
+        valueAtTheMiddle.Value.ShouldBe(7);
     }
 }

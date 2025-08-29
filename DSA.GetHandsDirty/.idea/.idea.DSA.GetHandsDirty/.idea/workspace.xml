@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09163efd-6e0b-401b-9c36-808471f21a82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/SortProblems/QuickSort/NaiveQuickSortTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/QuickSort/MedianOfThreeQuickSort.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/QuickSort/NaiveQuickSort.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/QuickSort/QuickSortCommon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/QuickSort/RandomQuickSort.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/SortProblems/MergeSort/DefaultMergeSortTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/MergeSort/IntegerMergeSort.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BubbleSort/GenericBubbleSortTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/SortProblems/BubbleSort/GenericBubbleSortTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/DSA.GetHandsDirty.UnitTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/DSA.GetHandsDirty.UnitTests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/BubbleSort/GenericBubbleSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/BubbleSort/GenericBubbleSort.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/FindTheMiddleTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/FindTheMiddleTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/DSA.GetHandsDirty.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/DSA.GetHandsDirty.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/FindTheMiddle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/FindTheMiddle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/QuickSort/RandomQuickSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/QuickSort/RandomQuickSort.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/MyLinkedList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyLinkedList.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,15 +27,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d11a2737ca35a566a9df82947e9c6ee87f0145228c62c4bd76a213890715ba4/ShouldlyCoreExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/ArrayProblems/LengthOfLongestSubstringTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/FindCircularReferenceTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/FindTheMiddleTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/SortProblems/BubbleSort/GenericBubbleSortTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/SortProblems/MergeSort/DefaultMergeSortTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/SortProblems/QuickSort/NaiveQuickSortTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/ArrayProblems/StringProblems/LengthOfLongestSubstring.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/FindCircularReference.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/FindTheMiddle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/BubbleSort/GenericBubbleSort.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/MergeSort/DefaultMergeSort.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/QuickSort/MedianOfThreeQuickSort.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/QuickSort/NaiveQuickSort.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/QuickSort/QuickSortCommon.cs" root0="FORCE_HIGHLIGHTING" />
@@ -87,6 +89,8 @@
       <workItem from="1754955896488" duration="6932000" />
       <workItem from="1755197524432" duration="235000" />
       <workItem from="1755486155700" duration="27916000" />
+      <workItem from="1755828216995" duration="158000" />
+      <workItem from="1756408030284" duration="13864000" />
     </task>
     <task id="LOCAL-00001" summary="Implement a binary search algorithm">
       <option name="closed" value="true" />
@@ -216,7 +220,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755629886342</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Move bubble sort to a specific namespace">
+      <option name="closed" value="true" />
+      <created>1755828285032</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1755828285033</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Implement three types of quick sort algorithms">
+      <option name="closed" value="true" />
+      <created>1755828354109</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1755828354109</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +262,9 @@
     <MESSAGE value="Find circular dependency" />
     <MESSAGE value="Rename" />
     <MESSAGE value="Lenght of substring improvements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lenght of substring improvements" />
+    <MESSAGE value="Move bubble sort to a specific namespace" />
+    <MESSAGE value="Implement three types of quick sort algorithms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement three types of quick sort algorithms" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -328,6 +350,7 @@
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
+        <PinnedItemInfo parentTag="Type#DSA.MyDataStructures.MyLinkedNode`1" memberName="Next" />
         <PinnedItemInfo parentTag="Type#DSA.MyDataStructures.MyLinkedList`1" memberName="Tail" />
       </pinned-members>
     </pin-to-top-manager>

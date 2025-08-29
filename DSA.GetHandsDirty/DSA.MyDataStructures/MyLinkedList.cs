@@ -26,7 +26,7 @@ public class MyLinkedList<T> : IMyLinkedList<T>
 
         Head = node;
         Tail ??= node;
-        
+
         return this;
     }
 
@@ -87,6 +87,8 @@ public class MyLinkedList<T> : IMyLinkedList<T>
         if (Head is null)
             return 0;
 
+        // TODO: Check if has a circular reference
+
         var counter = 1;
         var currentPosition = Head;
         while (currentPosition?.Next is not null)
@@ -113,5 +115,26 @@ public class MyLinkedList<T> : IMyLinkedList<T>
             if (nextNode is not null)
                 Head = nextNode;
         }
+    }
+
+    public T[] ToArray()
+    {
+        if (Head is null)
+            return [];
+        
+        var len = HowMany();
+        var arr = new T[len];
+        var currentNode = Head;
+
+        for (var i = 0; i < len; i++)
+        {
+            arr[i] = currentNode.Value;
+            if (currentNode.Next is not null)
+            {
+                currentNode = currentNode.Next;
+            }
+        }
+
+        return arr;
     }
 }

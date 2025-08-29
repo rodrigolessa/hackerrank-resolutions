@@ -28,8 +28,4 @@
       <ProjectReference Include="..\DSA.MyDataStructures\DSA.MyDataStructures.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="SortProblems\MergeSort\" />
-    </ItemGroup>
-
 </Project>
