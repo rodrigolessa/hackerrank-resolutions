@@ -17,6 +17,13 @@ public static class ReverseAnEntireString
         return new string(chars);
     }
 
+    /// <summary>
+    /// Existe uma solução em .Net que faz isso
+    /// - Array.Reverse(chars, start, count);
+    /// </summary>
+    /// <param name="left"></param>
+    /// <param name="right"></param>
+    /// <param name="chars"></param>
     public static void ReverseSubset(int left, int right, char[] chars)
     {
         while (left < right)
