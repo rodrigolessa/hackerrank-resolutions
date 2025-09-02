@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09163efd-6e0b-401b-9c36-808471f21a82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/SlindingWindow/ContainsDuplicateIndexTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/HashMapProblems/TwoSum.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/SlidingWindow/ContainsNearbyDuplicate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryOperationProblems/MissingNumberTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryOperationProblems/NumberOfOneBitsTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryOperationProblems/NumberOfStepsToReduceToZeroTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/MergeTwoListsTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryOperationProblems/MissingNumber.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryOperationProblems/NumberOfOneBits.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryOperationProblems/NumberOfStepsToReduceToZero.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/MergeTwoLists.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/ArrayProblems/StringProblems/ReverseAnEntireString.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/ArrayProblems/StringProblems/ReverseAnEntireString.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/ArrayProblems/StringProblems/ReverseWordsLettersInAString.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/ArrayProblems/StringProblems/ReverseWordsLettersInAString.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/DSA.GetHandsDirty.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/DSA.GetHandsDirty.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/BinarySearch/GenericBinarySearch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinarySearch/GenericBinarySearch.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,18 +30,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1f7d81c92c01349f8e68213d932e21041fa2083dc3c66e37a976b86d247666/ShouldBeBooleanExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d11a2737ca35a566a9df82947e9c6ee87f0145228c62c4bd76a213890715ba4/ShouldlyCoreExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/ArrayProblems/LengthOfLongestSubstringTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryOperationProblems/MissingNumberTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryOperationProblems/NumberOfOneBitsTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryOperationProblems/NumberOfStepsToReduceToZeroTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/FindCircularReferenceTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/FindTheMiddleTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/MergeTwoListsTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/SlindingWindow/ContainsDuplicateIndexTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/SortProblems/BubbleSort/GenericBubbleSortTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/SortProblems/MergeSort/DefaultMergeSortTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/SortProblems/QuickSort/NaiveQuickSortTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/ArrayProblems/StringProblems/LengthOfLongestSubstring.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryOperationProblems/MissingNumber.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryOperationProblems/NumberOfOneBits.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryOperationProblems/NumberOfStepsToReduceToZero.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/HashMapProblems/TwoSum.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/FindCircularReference.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/FindTheMiddle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/MergeTwoLists.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/TextEditorUndoFunction/MyTextEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SlidingWindow/ContainsNearbyDuplicate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/BubbleSort/GenericBubbleSort.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/MergeSort/IntegerMergeSort.cs" root0="FORCE_HIGHLIGHTING" />
@@ -44,6 +59,8 @@
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/QuickSort/NaiveQuickSort.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/QuickSort/QuickSortCommon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/QuickSort/RandomQuickSort.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -91,7 +108,8 @@
       <workItem from="1755197524432" duration="235000" />
       <workItem from="1755486155700" duration="27916000" />
       <workItem from="1755828216995" duration="158000" />
-      <workItem from="1756408030284" duration="23785000" />
+      <workItem from="1756408030284" duration="33765000" />
+      <workItem from="1756762656746" duration="11110000" />
     </task>
     <task id="LOCAL-00001" summary="Implement a binary search algorithm">
       <option name="closed" value="true" />
@@ -245,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756493690833</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Hashmap and sliding window problemas">
+      <option name="closed" value="true" />
+      <created>1756523444948</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1756523444948</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +300,8 @@
     <MESSAGE value="Move bubble sort to a specific namespace" />
     <MESSAGE value="Implement three types of quick sort algorithms" />
     <MESSAGE value="Merge sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge sort" />
+    <MESSAGE value="Hashmap and sliding window problemas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hashmap and sliding window problemas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -355,6 +382,71 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/MergeTwoListsTests.cs</url>
+          <line>33</line>
+          <properties documentPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/MergeTwoListsTests.cs" containingFunctionPresentation="Method 'MergeAndSort_GivenTwoOrderedLists_ShouldReturnOneOrderedList'">
+            <startOffsets>
+              <option value="1091" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1116" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs</url>
+          <line>36</line>
+          <properties documentPath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs" containingFunctionPresentation="Method 'Search_GivenAValidInteger_ShouldReturnIfExists'">
+            <startOffsets>
+              <option value="995" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1043" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs</url>
+          <line>55</line>
+          <properties documentPath="$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs" containingFunctionPresentation="Method 'SearchRecursively'">
+            <startOffsets>
+              <option value="1345" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1369" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs</url>
+          <line>50</line>
+          <properties documentPath="$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs" containingFunctionPresentation="Method 'Search'">
+            <startOffsets>
+              <option value="1198" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1235" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs</url>
+          <line>26</line>
+          <properties documentPath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs" containingFunctionPresentation="Method 'Insert_GivenAValidIntegerSequence_ShouldDistributeCorrectly'">
+            <startOffsets>
+              <option value="721" />
+            </startOffsets>
+            <endOffsets>
+              <option value="760" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -12,7 +12,8 @@ public static class GenericBinarySearch
             {
                 return middle;
             } 
-            else if (numbers[middle] > numberToFind)
+            
+            if (numbers[middle] > numberToFind)
             {
                 right = middle - 1;
             }
