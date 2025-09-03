@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09163efd-6e0b-401b-9c36-808471f21a82" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +102,7 @@
       <workItem from="1755828216995" duration="158000" />
       <workItem from="1756408030284" duration="33765000" />
       <workItem from="1756762656746" duration="12645000" />
-      <workItem from="1756836398248" duration="8218000" />
+      <workItem from="1756836398248" duration="8969000" />
     </task>
     <task id="LOCAL-00001" summary="Implement a binary search algorithm">
       <option name="closed" value="true" />
@@ -273,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756818010083</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Binary tree traversals">
+      <option name="closed" value="true" />
+      <created>1756902415798</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1756902415799</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,7 +311,8 @@
     <MESSAGE value="Merge sort" />
     <MESSAGE value="Hashmap and sliding window problemas" />
     <MESSAGE value="Binary tree implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary tree implementation" />
+    <MESSAGE value="Binary tree traversals" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary tree traversals" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
