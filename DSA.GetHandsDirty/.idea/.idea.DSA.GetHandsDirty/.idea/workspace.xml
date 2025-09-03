@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09163efd-6e0b-401b-9c36-808471f21a82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryOperationProblems/MissingNumberTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryOperationProblems/NumberOfOneBitsTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryOperationProblems/NumberOfStepsToReduceToZeroTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/MergeTwoListsTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryOperationProblems/MissingNumber.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryOperationProblems/NumberOfOneBits.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryOperationProblems/NumberOfStepsToReduceToZero.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/MergeTwoLists.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/BinarySearch/GenericBinarySearch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinarySearch/GenericBinarySearch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +21,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e8f465656045425a84003f974b953d2fb2e200/1a/28caf605/MethodBaseInvoker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1f7d81c92c01349f8e68213d932e21041fa2083dc3c66e37a976b86d247666/ShouldBeBooleanExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d11a2737ca35a566a9df82947e9c6ee87f0145228c62c4bd76a213890715ba4/ShouldlyCoreExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f5545b2656401abe1a371ad2756d7d2328a38293f7ee8b163801bbf55cee8/TestInvoker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/ArrayProblems/LengthOfLongestSubstringTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryOperationProblems/MissingNumberTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryOperationProblems/NumberOfOneBitsTests.cs" root0="FORCE_HIGHLIGHTING" />
@@ -109,7 +102,8 @@
       <workItem from="1755486155700" duration="27916000" />
       <workItem from="1755828216995" duration="158000" />
       <workItem from="1756408030284" duration="33765000" />
-      <workItem from="1756762656746" duration="11110000" />
+      <workItem from="1756762656746" duration="12645000" />
+      <workItem from="1756836398248" duration="8218000" />
     </task>
     <task id="LOCAL-00001" summary="Implement a binary search algorithm">
       <option name="closed" value="true" />
@@ -271,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756523444948</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Binary tree implementation">
+      <option name="closed" value="true" />
+      <created>1756818010083</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1756818010083</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +303,8 @@
     <MESSAGE value="Implement three types of quick sort algorithms" />
     <MESSAGE value="Merge sort" />
     <MESSAGE value="Hashmap and sliding window problemas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hashmap and sliding window problemas" />
+    <MESSAGE value="Binary tree implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary tree implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -398,45 +401,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs</url>
-          <line>36</line>
-          <properties documentPath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs" containingFunctionPresentation="Method 'Search_GivenAValidInteger_ShouldReturnIfExists'">
-            <startOffsets>
-              <option value="995" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1043" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs</url>
-          <line>55</line>
-          <properties documentPath="$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs" containingFunctionPresentation="Method 'SearchRecursively'">
-            <startOffsets>
-              <option value="1345" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1369" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs</url>
-          <line>50</line>
-          <properties documentPath="$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs" containingFunctionPresentation="Method 'Search'">
-            <startOffsets>
-              <option value="1198" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1235" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs</url>
           <line>26</line>
           <properties documentPath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs" containingFunctionPresentation="Method 'Insert_GivenAValidIntegerSequence_ShouldDistributeCorrectly'">
             <startOffsets>
@@ -447,6 +411,32 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs</url>
+          <line>44</line>
+          <properties documentPath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs" containingFunctionPresentation="Method 'PreorderTraversal_GivenAValidBalanceTree_ShouldReturnAnArrayWhereTheFirstElementIsTheRoot'">
+            <startOffsets>
+              <option value="1257" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1305" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs</url>
+          <line>58</line>
+          <properties documentPath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs" containingFunctionPresentation="Method 'PostorderTraversal_GivenAValidBalanceTree_ShouldReturnAnArrayWhereTheLastElementIsTheRoot'">
+            <startOffsets>
+              <option value="1721" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1757" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
