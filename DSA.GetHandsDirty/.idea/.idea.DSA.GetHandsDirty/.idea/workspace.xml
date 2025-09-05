@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09163efd-6e0b-401b-9c36-808471f21a82" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+    <list default="true" id="2e861a1f-8645-480a-bc54-5fb1e2f9e212" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblemsTests/BinaryTreeFromTraversalTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblemsTests/DepthFirstSearchTreeTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/BinaryTreeFromTraversal.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/BreadthFirstSearchTree.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/BuildFromTraversals.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/DepthFirstSearchTree.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/MyHeap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyHeap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/MyQueue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyQueue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/MyStack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyStack.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +29,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e8f465656045425a84003f974b953d2fb2e200/1a/28caf605/MethodBaseInvoker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e8f465656045425a84003f974b953d2fb2e200/cf/a405705c/Array.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1f7d81c92c01349f8e68213d932e21041fa2083dc3c66e37a976b86d247666/ShouldBeBooleanExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d11a2737ca35a566a9df82947e9c6ee87f0145228c62c4bd76a213890715ba4/ShouldlyCoreExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f5545b2656401abe1a371ad2756d7d2328a38293f7ee8b163801bbf55cee8/TestInvoker.cs" root0="FORCE_HIGHLIGHTING" />
@@ -28,6 +37,8 @@
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryOperationProblems/MissingNumberTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryOperationProblems/NumberOfOneBitsTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryOperationProblems/NumberOfStepsToReduceToZeroTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblemsTests/BinaryTreeFromTraversalTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblemsTests/DepthFirstSearchTreeTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/FindCircularReferenceTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/FindTheMiddleTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/MergeTwoListsTests.cs" root0="FORCE_HIGHLIGHTING" />
@@ -39,6 +50,10 @@
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryOperationProblems/MissingNumber.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryOperationProblems/NumberOfOneBits.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryOperationProblems/NumberOfStepsToReduceToZero.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/BinaryTreeFromTraversal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/BreadthFirstSearchTree.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/BuildFromTraversals.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/DepthFirstSearchTree.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/HashMapProblems/TwoSum.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/FindCircularReference.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/FindTheMiddle.cs" root0="FORCE_HIGHLIGHTING" />
@@ -54,397 +69,51 @@
     <setting file="file://$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="KubernetesApiPersistence">{}</component>
-  <component name="KubernetesApiProvider">{
-  &quot;isMigrated&quot;: true
-}</component>
-  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="30sXoyWXw92Y4XWu7hZuQf2aJvZ" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;39315c9c-70f1-4756-90b8-0a2f512df61f.executor&quot;: &quot;Debug&quot;,
-    &quot;9f8d64c6-37b8-4afe-a2f2-fff5fb26b968.executor&quot;: &quot;Debug&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;e078aee3-3555-4f06-ad8a-7a8c4405be61.executor&quot;: &quot;Debug&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/binary-search&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/rodrigo-lessa/github/lng-concurrency-control-mechanism&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "39315c9c-70f1-4756-90b8-0a2f512df61f.executor": "Debug",
+    "XThreadsFramesViewSplitterKey": "0.6967213",
+    "git-widget-placeholder": "feature/binary-search",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-}</component>
+}]]></component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="09163efd-6e0b-401b-9c36-808471f21a82" name="Changes" comment="" />
-      <created>1754417435251</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1754417435251</updated>
-      <workItem from="1754417435254" duration="13343000" />
-      <workItem from="1754508747876" duration="48755000" />
-      <workItem from="1754787226239" duration="3749000" />
-      <workItem from="1754934972902" duration="3143000" />
-      <workItem from="1754955896488" duration="6932000" />
-      <workItem from="1755197524432" duration="235000" />
-      <workItem from="1755486155700" duration="27916000" />
-      <workItem from="1755828216995" duration="158000" />
-      <workItem from="1756408030284" duration="33765000" />
-      <workItem from="1756762656746" duration="12645000" />
-      <workItem from="1756836398248" duration="8969000" />
-    </task>
-    <task id="LOCAL-00001" summary="Implement a binary search algorithm">
-      <option name="closed" value="true" />
-      <created>1754487080756</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1754487080756</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Replace the package FluentAssertion with Shouldly">
-      <option name="closed" value="true" />
-      <created>1754595291790</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1754595291790</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Implement a linked list structure">
-      <option name="closed" value="true" />
-      <created>1754595343560</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1754595343560</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Improve linked list implementation">
-      <option name="closed" value="true" />
-      <created>1754698883803</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1754698883803</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Real world linked list problem">
-      <option name="closed" value="true" />
-      <created>1754698921318</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1754698921318</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Array problems">
-      <option name="closed" value="true" />
-      <created>1754698940735</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1754698940735</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Empty structures">
-      <option name="closed" value="true" />
-      <created>1754698953625</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1754698953625</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Add slinding window solution">
-      <option name="closed" value="true" />
-      <created>1754938021774</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1754938021775</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Update workspace">
-      <option name="closed" value="true" />
-      <created>1754938100299</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1754938100299</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Exponential Search">
-      <option name="closed" value="true" />
-      <created>1754959917863</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1754959917863</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Add idea in ignore list">
-      <option name="closed" value="true" />
-      <created>1755197560605</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1755197560605</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Add linked list feature">
-      <option name="closed" value="true" />
-      <created>1755601703559</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1755601703559</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Add bubble sort algorithm">
-      <option name="closed" value="true" />
-      <created>1755601740639</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1755601740639</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Find circular dependency">
-      <option name="closed" value="true" />
-      <created>1755604697069</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1755604697069</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Rename">
-      <option name="closed" value="true" />
-      <created>1755605229655</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1755605229655</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Lenght of substring improvements">
-      <option name="closed" value="true" />
-      <created>1755629886342</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1755629886342</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Move bubble sort to a specific namespace">
-      <option name="closed" value="true" />
-      <created>1755828285032</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1755828285033</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Implement three types of quick sort algorithms">
-      <option name="closed" value="true" />
-      <created>1755828354109</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1755828354109</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Merge sort">
-      <option name="closed" value="true" />
-      <created>1756493690833</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1756493690833</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Hashmap and sliding window problemas">
-      <option name="closed" value="true" />
-      <created>1756523444948</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1756523444948</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Binary tree implementation">
-      <option name="closed" value="true" />
-      <created>1756818010083</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1756818010083</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Binary tree traversals">
-      <option name="closed" value="true" />
-      <created>1756902415798</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1756902415799</updated>
-    </task>
-    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
-  <component name="VcsManagerConfiguration">
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Implement a binary search algorithm" />
-    <MESSAGE value="Replace the package FluentAssertion with Shouldly" />
-    <MESSAGE value="Implement a linked list structure" />
-    <MESSAGE value="Improve linked list implementation" />
-    <MESSAGE value="Real world linked list problem" />
-    <MESSAGE value="Array problems" />
-    <MESSAGE value="Empty structures" />
-    <MESSAGE value="Add slinding window solution" />
-    <MESSAGE value="Update workspace" />
-    <MESSAGE value="Exponential Search" />
-    <MESSAGE value="Add idea in ignore list" />
-    <MESSAGE value="Add linked list feature" />
-    <MESSAGE value="Add bubble sort algorithm" />
-    <MESSAGE value="Find circular dependency" />
-    <MESSAGE value="Rename" />
-    <MESSAGE value="Lenght of substring improvements" />
-    <MESSAGE value="Move bubble sort to a specific namespace" />
-    <MESSAGE value="Implement three types of quick sort algorithms" />
-    <MESSAGE value="Merge sort" />
-    <MESSAGE value="Hashmap and sliding window problemas" />
-    <MESSAGE value="Binary tree implementation" />
-    <MESSAGE value="Binary tree traversals" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary tree traversals" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
-          <option name="timeStamp" value="2" />
-        </breakpoint>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
-          <option name="timeStamp" value="3" />
-        </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyLinkedListTests.cs</url>
-          <line>43</line>
-          <properties documentPath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyLinkedListTests.cs" containingFunctionPresentation="Method 'RemoveFirstPosition_GivenAValidListOfIntegers_ShouldRemoveAndReturnTheHeadValue'">
-            <startOffsets>
-              <option value="1385" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1414" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyLinkedListTests.cs</url>
-          <line>45</line>
-          <properties documentPath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyLinkedListTests.cs" containingFunctionPresentation="Method 'RemoveFirstPosition_GivenAValidListOfIntegers_ShouldRemoveAndReturnTheHeadValue'">
-            <startOffsets>
-              <option value="1479" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1510" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyLinkedListTests.cs</url>
-          <line>87</line>
-          <properties documentPath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyLinkedListTests.cs" containingFunctionPresentation="Method 'Reverse_GivenAValidListOfStrings_ShouldInvertThePositionOfEveryNodeInTheList'">
-            <startOffsets>
-              <option value="2792" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2822" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DSA.GetHandsDirty/SlidingWindow/FindSequenceThatDoesNotRepeat.cs</url>
+          <url>file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblemsTests/BinaryTreeFromTraversalTests.cs</url>
           <line>17</line>
-          <properties documentPath="$PROJECT_DIR$/DSA.GetHandsDirty/SlidingWindow/FindSequenceThatDoesNotRepeat.cs" containingFunctionPresentation="Method 'Find'">
+          <properties documentPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblemsTests/BinaryTreeFromTraversalTests.cs" containingFunctionPresentation="Method 'Insert_GivenAValidIntegerSequence_ShouldDistributeCorrectly'">
             <startOffsets>
-              <option value="444" />
+              <option value="544" />
             </startOffsets>
             <endOffsets>
-              <option value="452" />
+              <option value="582" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="18" />
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DSA.GetHandsDirty/BinarySearch/GenericBinarySearch.cs</url>
-          <line>6</line>
-          <properties documentPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinarySearch/GenericBinarySearch.cs" containingFunctionPresentation="Method 'Find'">
+          <url>file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/DepthFirstSearchTree.cs</url>
+          <line>13</line>
+          <properties documentPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/DepthFirstSearchTree.cs" containingFunctionPresentation="Method 'HasPathSum'">
             <startOffsets>
-              <option value="195" />
+              <option value="379" />
             </startOffsets>
             <endOffsets>
-              <option value="205" />
+              <option value="396" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/MergeTwoListsTests.cs</url>
-          <line>33</line>
-          <properties documentPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/MergeTwoListsTests.cs" containingFunctionPresentation="Method 'MergeAndSort_GivenTwoOrderedLists_ShouldReturnOneOrderedList'">
-            <startOffsets>
-              <option value="1091" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1116" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs</url>
-          <line>26</line>
-          <properties documentPath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs" containingFunctionPresentation="Method 'Insert_GivenAValidIntegerSequence_ShouldDistributeCorrectly'">
-            <startOffsets>
-              <option value="721" />
-            </startOffsets>
-            <endOffsets>
-              <option value="760" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs</url>
-          <line>44</line>
-          <properties documentPath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs" containingFunctionPresentation="Method 'PreorderTraversal_GivenAValidBalanceTree_ShouldReturnAnArrayWhereTheFirstElementIsTheRoot'">
-            <startOffsets>
-              <option value="1257" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1305" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs</url>
-          <line>58</line>
-          <properties documentPath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs" containingFunctionPresentation="Method 'PostorderTraversal_GivenAValidBalanceTree_ShouldReturnAnArrayWhereTheLastElementIsTheRoot'">
-            <startOffsets>
-              <option value="1721" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1757" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="39" />
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -454,10 +123,5 @@
         <PinnedItemInfo parentTag="Type#DSA.MyDataStructures.MyLinkedList`1" memberName="Tail" />
       </pinned-members>
     </pin-to-top-manager>
-    <watches-manager>
-      <configuration name="RiderUnitTests">
-        <watch expression="input[right]" language="C#" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
