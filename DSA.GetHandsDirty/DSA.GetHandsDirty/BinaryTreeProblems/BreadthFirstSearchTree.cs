@@ -15,7 +15,22 @@ public class BreadthFirstSearchTree
         if (root is null)
             return false;
         
-        
+        // Replace by my own implementations
+        var queue = new Queue<MyBinaryNode>();
+        queue.Enqueue(root);
+
+        while (queue.Count > 0)
+        {
+            var currentNode = queue.Dequeue();
+            if (currentNode.Data == data)
+                return true;
+            
+            if (currentNode.LeftChild is not null)
+                queue.Enqueue(currentNode.LeftChild);
+            
+            if (currentNode.RightChild is not null)
+                queue.Enqueue(currentNode.RightChild);
+        }   
         
         return false;
     }

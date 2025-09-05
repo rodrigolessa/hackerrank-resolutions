@@ -23,15 +23,20 @@ public class MyQueue<T>
         }
     }
 
-    public T? Dequeue() // POP OR GET - Return first element and remove it;
+    public MyLinkedNode<T>? Dequeue() // POP OR GET - Return first element and remove it;
     {
         // TODO: Criar controles para paralelismo - Blocks and TimeOuts
         if (Head is null)
-            return default;
+            return null;
         
-        var headData = Head.Value;
+        var currentHead = Head;
         Head = Head.Next;
         
-        return headData;
+        return currentHead;
+    }
+
+    public MyLinkedNode<T>? Peek()
+    {
+        return Head;
     }
 }
