@@ -2,6 +2,15 @@ namespace DSA.GetHandsDirty.BinarySearch;
 
 public static class GenericBinarySearch
 {
+    /// <summary>
+    /// Using a two pointers tecnique
+    /// </summary>
+    /// <param name="numbers"></param>
+    /// <param name="numberToFind"></param>
+    /// <param name="left"></param>
+    /// <param name="right"></param>
+    /// <param name="steps"></param>
+    /// <returns></returns>
     public static int Find(int[] numbers, int numberToFind, int left, int right, out int steps)
     {
         steps = 0;

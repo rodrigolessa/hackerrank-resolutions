@@ -1,4 +1,6 @@
-namespace DSA.MyDataStructures.UnitTests;
+using DSA.MyDataStructures;
+
+namespace DSA.GetHandsDirty.UnitTests.LinkedListProblems;
 
 public class MyLinkedListTests
 {

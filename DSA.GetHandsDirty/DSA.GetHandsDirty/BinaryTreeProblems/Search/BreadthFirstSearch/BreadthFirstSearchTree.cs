@@ -1,6 +1,6 @@
 using DSA.MyDataStructures;
 
-namespace DSA.GetHandsDirty.BinaryTreeProblems;
+namespace DSA.GetHandsDirty.BinaryTreeProblems.Search.BreadthFirstSearch;
 
 /// <summary>
 /// Busca em amplitude
@@ -15,7 +15,6 @@ public class BreadthFirstSearchTree
         if (root is null)
             return false;
         
-        // Replace by my own implementations
         var queue = new Queue<MyBinaryNode>();
         queue.Enqueue(root);
 

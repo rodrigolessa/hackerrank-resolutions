@@ -1,6 +1,6 @@
 using DSA.MyDataStructures;
 
-namespace DSA.GetHandsDirty.BinaryTreeProblems;
+namespace DSA.GetHandsDirty.BinaryTreeProblems.Traversals;
 
 /// <summary>
 /// LeetCode 106
@@ -10,7 +10,7 @@ namespace DSA.GetHandsDirty.BinaryTreeProblems;
 /// 2 - Find its index in inorder → this splits the tree into left and right subtrees.
 /// 3 - Recurse for the right subtree first, then the left subtree (because in postorder, we process right subtree before left when iterating backward).
 /// </summary>
-public class BinaryTreeFromTraversal
+public class BuildATreeFromInorderAndPostorderTraversals
 {
     private readonly Dictionary<int, int> _inorderIndexMap = new();
     private int _postorderIndex;

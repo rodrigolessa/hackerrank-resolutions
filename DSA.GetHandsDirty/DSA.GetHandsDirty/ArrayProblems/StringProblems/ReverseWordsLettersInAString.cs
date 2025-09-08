@@ -26,7 +26,7 @@ public static class ReverseWordsLettersInAString
         return new string(array);
     }
     
-    public static string ALternativeReverseWords(string s) {
+    public static string AlternativeReverseWords(string s) {
         char[] chars = s.ToCharArray();
         int start = 0;
         int count = 0;

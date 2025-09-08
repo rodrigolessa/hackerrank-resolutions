@@ -2,6 +2,12 @@ namespace DSA.GetHandsDirty.ArrayProblems.StringProblems;
 
 public static class LengthOfLongestSubstring
 {
+    /// <summary>
+    /// Encontrar a maior sequencia de caracteres onde nenhum deles se repete.
+    /// Normalmente é um problema de sliding window mas para esse cenário essa solução com um loop é mais eficiente.
+    /// </summary>
+    /// <param name="s"></param>
+    /// <returns></returns>
     public static int FindInOneIteration(string s) {
         Dictionary<char,int> map = new Dictionary<char,int>();
         int maxLength = 0;

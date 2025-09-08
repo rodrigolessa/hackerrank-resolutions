@@ -6,8 +6,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.MyDataStructures", "DSA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.GetHandsDirty.UnitTests", "DSA.GetHandsDirty.UnitTests\DSA.GetHandsDirty.UnitTests.csproj", "{EF3E9685-332C-4E32-813F-2997A8A24E78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.MyDataStructures.UnitTests", "DSA.MyDataStructures.UnitTests\DSA.MyDataStructures.UnitTests.csproj", "{98E6EBB6-6A2E-4583-BD6F-ED5D921C4467}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +24,5 @@ Global
 		{EF3E9685-332C-4E32-813F-2997A8A24E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF3E9685-332C-4E32-813F-2997A8A24E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF3E9685-332C-4E32-813F-2997A8A24E78}.Release|Any CPU.Build.0 = Release|Any CPU
-		{98E6EBB6-6A2E-4583-BD6F-ED5D921C4467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{98E6EBB6-6A2E-4583-BD6F-ED5D921C4467}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{98E6EBB6-6A2E-4583-BD6F-ED5D921C4467}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{98E6EBB6-6A2E-4583-BD6F-ED5D921C4467}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

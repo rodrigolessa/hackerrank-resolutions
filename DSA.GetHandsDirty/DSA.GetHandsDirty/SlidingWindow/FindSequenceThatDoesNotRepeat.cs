@@ -2,6 +2,12 @@ namespace DSA.GetHandsDirty.SlidingWindow;
 
 public static class FindSequenceThatDoesNotRepeat
 {
+    /// <summary>
+    /// A maior sequencia onde uma letra só se repete N vezes no máximo
+    /// </summary>
+    /// <param name="input"></param>
+    /// <param name="maxAllowed"></param>
+    /// <returns></returns>
     public static int Find(string input, int maxAllowed)
     {
         if (string.IsNullOrWhiteSpace(input))

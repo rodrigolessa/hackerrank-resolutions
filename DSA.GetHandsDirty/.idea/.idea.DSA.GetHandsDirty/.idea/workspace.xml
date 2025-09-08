@@ -4,17 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e861a1f-8645-480a-bc54-5fb1e2f9e212" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblemsTests/BinaryTreeFromTraversalTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblemsTests/DepthFirstSearchTreeTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/BinaryTreeFromTraversal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/BreadthFirstSearchTree.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/BuildFromTraversals.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/DepthFirstSearchTree.cs" afterDir="false" />
+    <list default="true" id="2e861a1f-8645-480a-bc54-5fb1e2f9e212" name="Changes" comment="BFS problems">
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/BinaryTreeOrderLevelTraversalTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/BinaryTreeSearchTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/BinaryTreeTraversalsTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/BreadthFirstSearchTreeTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/FindIfHasAPathSumProblemTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/MaximumDepthOfBinaryTreeTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/SameTreeProblemTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/CloneGraphTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/SameTreeProblem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Search/DepthFirstSearch/MaximumDepthOfBinaryTree.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Traversals/BinaryTreeOrderLevelTraversal.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/CloneGraph.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyGraphNode.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/MyHeap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyHeap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/MyQueue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyQueue.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/MyStack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyStack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblemsTests/BinaryTreeFromTraversalTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/BuildATreeFromInorderAndPostorderTraversalsTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblemsTests/DepthFirstSearchTreeTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/DummyData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/DummyData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/ArrayProblems/StringProblems/LengthOfLongestSubstring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/ArrayProblems/StringProblems/LengthOfLongestSubstring.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/ArrayProblems/StringProblems/ReverseWordsLettersInAString.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/ArrayProblems/StringProblems/ReverseWordsLettersInAString.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/BinarySearch/GenericBinarySearch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinarySearch/GenericBinarySearch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/BinaryTreeFromTraversal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Traversals/BuildATreeFromInorderAndPostorderTraversals.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/BinaryTreeOrderLevelTraversal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/BreadthFirstSearchTree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Search/BreadthFirstSearch/BreadthFirstSearchTree.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/BuildFromTraversals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Traversals/BuildFromTraversalsAnotherExample.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/DepthFirstSearchTree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Search/DepthFirstSearch/FindIfHasAPathSumProblem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/SlidingWindow/FindSequenceThatDoesNotRepeat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/SlidingWindow/FindSequenceThatDoesNotRepeat.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/MyBinaryTreeTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyDoublyLinkedListTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/MyDoublyLinkedListTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyLinkedListTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/MyLinkedListTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +50,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e8f465656045425a84003f974b953d2fb2e200/1a/28caf605/MethodBaseInvoker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e8f465656045425a84003f974b953d2fb2e200/cf/a405705c/Array.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e8f465656045425a84003f974b953d2fb2e200/ef/d21daa63/Queue`1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1f7d81c92c01349f8e68213d932e21041fa2083dc3c66e37a976b86d247666/ShouldBeBooleanExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d11a2737ca35a566a9df82947e9c6ee87f0145228c62c4bd76a213890715ba4/ShouldlyCoreExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f5545b2656401abe1a371ad2756d7d2328a38293f7ee8b163801bbf55cee8/TestInvoker.cs" root0="FORCE_HIGHLIGHTING" />
@@ -37,8 +58,16 @@
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryOperationProblems/MissingNumberTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryOperationProblems/NumberOfOneBitsTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryOperationProblems/NumberOfStepsToReduceToZeroTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblemsTests/BinaryTreeFromTraversalTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblemsTests/DepthFirstSearchTreeTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/BinaryTreeOrderLevelTraversalTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/BinaryTreeSearchTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/BinaryTreeTraversalsTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/BreadthFirstSearchTreeTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/BuildATreeFromInorderAndPostorderTraversalsTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/FindIfHasAPathSumProblemTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/MaximumDepthOfBinaryTreeTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/MyBinaryTreeTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/SameTreeProblemTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/CloneGraphTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/FindCircularReferenceTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/FindTheMiddleTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/MergeTwoListsTests.cs" root0="FORCE_HIGHLIGHTING" />
@@ -50,10 +79,15 @@
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryOperationProblems/MissingNumber.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryOperationProblems/NumberOfOneBits.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryOperationProblems/NumberOfStepsToReduceToZero.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/BinaryTreeFromTraversal.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/BreadthFirstSearchTree.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/BuildFromTraversals.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/DepthFirstSearchTree.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/rodrigo-lessa/github/hackerrank-resolutions/DSA.GetHandsDirty/DSA.GetHandsDirty/BinaryTreeProblems/BreadthFirstSearchTree.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/SameTreeProblem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Search/BreadthFirstSearch/BreadthFirstSearchTree.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Search/DepthFirstSearch/FindIfHasAPathSumProblem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Search/DepthFirstSearch/MaximumDepthOfBinaryTree.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Traversals/BinaryTreeOrderLevelTraversal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Traversals/BuildATreeFromInorderAndPostorderTraversals.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Traversals/BuildFromTraversalsAnotherExample.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/CloneGraph.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/HashMapProblems/TwoSum.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/FindCircularReference.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/FindTheMiddle.cs" root0="FORCE_HIGHLIGHTING" />
@@ -66,54 +100,114 @@
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/QuickSort/NaiveQuickSort.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/QuickSort/QuickSortCommon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/QuickSort/RandomQuickSort.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.MyDataStructures/MyGraphNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/rodrigo-lessa/github/hackerrank-resolutions/DSA.GetHandsDirty/DSA.MyDataStructures/MyQueue.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="32GGhDyD0zNvMsrUM8eeIlxp4oe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "39315c9c-70f1-4756-90b8-0a2f512df61f.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "XThreadsFramesViewSplitterKey": "0.6967213",
     "git-widget-placeholder": "feature/binary-search",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.smartKeys_rider",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e861a1f-8645-480a-bc54-5fb1e2f9e212" name="Changes" comment="" />
+      <created>1757039612967</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757039612967</updated>
+      <workItem from="1757039614792" duration="29629000" />
+    </task>
+    <task id="LOCAL-00001" summary="DFS problems">
+      <option name="closed" value="true" />
+      <created>1757039652618</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757039652618</updated>
+    </task>
+    <task id="LOCAL-00002" summary="BFS problems">
+      <option name="closed" value="true" />
+      <created>1757043476007</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757043476007</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DFS problems" />
+    <MESSAGE value="BFS problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="BFS problems" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblemsTests/BinaryTreeFromTraversalTests.cs</url>
+          <url>file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/BuildATreeFromInorderAndPostorderTraversalsTests.cs</url>
           <line>17</line>
           <properties documentPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblemsTests/BinaryTreeFromTraversalTests.cs" containingFunctionPresentation="Method 'Insert_GivenAValidIntegerSequence_ShouldDistributeCorrectly'">
             <startOffsets>
-              <option value="544" />
+              <option value="639" />
             </startOffsets>
             <endOffsets>
-              <option value="582" />
+              <option value="677" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/DepthFirstSearchTree.cs</url>
+          <url>file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Search/DepthFirstSearch/FindIfHasAPathSumProblem.cs</url>
           <line>13</line>
           <properties documentPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/DepthFirstSearchTree.cs" containingFunctionPresentation="Method 'HasPathSum'">
             <startOffsets>
-              <option value="379" />
+              <option value="407" />
             </startOffsets>
             <endOffsets>
-              <option value="396" />
+              <option value="424" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Traversals/BinaryTreeOrderLevelTraversal.cs</url>
+          <line>11</line>
+          <properties documentPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/BinaryTreeOrderLevelTraversal.cs" containingFunctionPresentation="Method 'LevelOrder'">
+            <startOffsets>
+              <option value="422" />
+            </startOffsets>
+            <endOffsets>
+              <option value="439" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

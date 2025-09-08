@@ -50,10 +50,10 @@ public class MyBinaryTree
 
     public MyBinaryNode? Search(int data)
     {
-        return SearchRecursively(data, Root);
+        return Search(data, Root);
     }
 
-    private static MyBinaryNode? SearchRecursively(int data, MyBinaryNode? currentNode)
+    public static MyBinaryNode? Search(int data, MyBinaryNode? currentNode)
     {
         if (currentNode is null)
             return null;
@@ -61,7 +61,7 @@ public class MyBinaryTree
         if (currentNode.Data == data)
             return currentNode;
 
-        return SearchRecursively(data, data > currentNode.Data ? currentNode.RightChild : currentNode.LeftChild);
+        return Search(data, data > currentNode.Data ? currentNode.RightChild : currentNode.LeftChild);
     }
     
     #endregion

@@ -1,13 +1,13 @@
 using DSA.MyDataStructures;
 
-namespace DSA.GetHandsDirty.BinaryTreeProblems;
+namespace DSA.GetHandsDirty.BinaryTreeProblems.Search.DepthFirstSearch;
 
 /// <summary>
 /// Busca em profundidade
 /// LeetCode 112 - DFS
 /// Buscar recursivamente os nodes até chegar a uma folha e verificar se a subtração do target é igual a zero;
 /// </summary>
-public class DepthFirstSearchTree
+public class FindIfHasAPathSumProblem
 {
     public bool HasPathSum(MyBinaryNode? root, int targetSum)
     {

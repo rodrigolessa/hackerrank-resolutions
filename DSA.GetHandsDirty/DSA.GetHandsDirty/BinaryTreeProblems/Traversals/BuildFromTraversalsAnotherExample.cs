@@ -1,8 +1,8 @@
 using DSA.MyDataStructures;
 
-namespace DSA.GetHandsDirty.BinaryTreeProblems;
+namespace DSA.GetHandsDirty.BinaryTreeProblems.Traversals;
 
-public class BuildFromTraversals
+public class BuildFromTraversalsAnotherExample
 {
     int postIdx, inIdx;
     int[] inorder, postorder;
