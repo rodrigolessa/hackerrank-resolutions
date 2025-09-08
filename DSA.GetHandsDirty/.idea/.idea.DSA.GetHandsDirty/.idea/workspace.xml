@@ -4,37 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e861a1f-8645-480a-bc54-5fb1e2f9e212" name="Changes" comment="BFS problems">
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/BinaryTreeOrderLevelTraversalTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/BinaryTreeSearchTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/BinaryTreeTraversalsTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/BreadthFirstSearchTreeTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/FindIfHasAPathSumProblemTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/MaximumDepthOfBinaryTreeTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/SameTreeProblemTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/CloneGraphTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/SameTreeProblem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Search/DepthFirstSearch/MaximumDepthOfBinaryTree.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Traversals/BinaryTreeOrderLevelTraversal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/CloneGraph.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyGraphNode.cs" afterDir="false" />
+    <list default="true" id="2e861a1f-8645-480a-bc54-5fb1e2f9e212" name="Changes" comment="Move all tests to same project">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblemsTests/BinaryTreeFromTraversalTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/BuildATreeFromInorderAndPostorderTraversalsTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblemsTests/DepthFirstSearchTreeTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/DummyData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/DummyData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/ArrayProblems/StringProblems/LengthOfLongestSubstring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/ArrayProblems/StringProblems/LengthOfLongestSubstring.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/ArrayProblems/StringProblems/ReverseWordsLettersInAString.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/ArrayProblems/StringProblems/ReverseWordsLettersInAString.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/BinarySearch/GenericBinarySearch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinarySearch/GenericBinarySearch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/BinaryTreeFromTraversal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Traversals/BuildATreeFromInorderAndPostorderTraversals.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/BinaryTreeOrderLevelTraversal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/BreadthFirstSearchTree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Search/BreadthFirstSearch/BreadthFirstSearchTree.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/BuildFromTraversals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Traversals/BuildFromTraversalsAnotherExample.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/DepthFirstSearchTree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Search/DepthFirstSearch/FindIfHasAPathSumProblem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/SlidingWindow/FindSequenceThatDoesNotRepeat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/SlidingWindow/FindSequenceThatDoesNotRepeat.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyBinaryTreeTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/MyBinaryTreeTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyDoublyLinkedListTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/MyDoublyLinkedListTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures.UnitTests/MyLinkedListTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/MyLinkedListTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/CloneGraphTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/CloneGraphTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/CloneGraph.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/CloneGraph.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1757039612967</updated>
-      <workItem from="1757039614792" duration="29629000" />
+      <workItem from="1757039614792" duration="34814000" />
     </task>
     <task id="LOCAL-00001" summary="DFS problems">
       <option name="closed" value="true" />
@@ -154,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757043476007</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Move all tests to same project">
+      <option name="closed" value="true" />
+      <created>1757352846024</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757352846024</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +146,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DFS problems" />
     <MESSAGE value="BFS problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="BFS problems" />
+    <MESSAGE value="Move all tests to same project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move all tests to same project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -208,6 +190,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/CloneGraphTests.cs</url>
+          <line>31</line>
+          <properties documentPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/CloneGraphTests.cs" containingFunctionPresentation="Method 'Clone_GivenAFourNodesEachWithTwoNeighbors_ShouldReturnTheSameStructure'">
+            <startOffsets>
+              <option value="927" />
+            </startOffsets>
+            <endOffsets>
+              <option value="961" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

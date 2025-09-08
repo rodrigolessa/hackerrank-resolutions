@@ -12,34 +12,33 @@ public class CloneGraph
 {
     public MyGraphNode Clone(MyGraphNode? node)
     {
-        if (node == null)
+        if (node is null)
             return new MyGraphNode();
         
-        var clones = new Dictionary<int, MyGraphNode>();
+        if (node.neighbors.Count == 0)
+            return new MyGraphNode(node.val);
+        
+        var clones = new Dictionary<int, MyGraphNode> { { node.val, new MyGraphNode(node.val) } };
+
+        // Fila de controle dos nodes visitados
         var queue = new Queue<MyGraphNode>();
         queue.Enqueue(node);
 
         while (queue.Count > 0)
         {
+            // Remover os visitados da lista para inserir seus vizinhos
             var original = queue.Dequeue();
-            var currentClone = new MyGraphNode(original.val);
+            var currentClone = clones[original.val];
 
             foreach (var neighbor in original.neighbors)
             {
-                if (clones.ContainsKey(neighbor.val))
-                {
-                    currentClone.neighbors.Add(clones[neighbor.val]);
-                }
-                else
-                {
-                    clones[neighbor.val] = new MyGraphNode(neighbor.val);
+                if (clones.TryAdd(neighbor.val, new MyGraphNode(neighbor.val)))
                     queue.Enqueue(neighbor);
-                }
+                
+                currentClone.neighbors.Add(clones[neighbor.val]);
             }
-            
-            clones.Add(currentClone.val, currentClone);
         }
 
-        return clones[node.val];
+        return clones.FirstOrDefault().Value;
     }
 }
