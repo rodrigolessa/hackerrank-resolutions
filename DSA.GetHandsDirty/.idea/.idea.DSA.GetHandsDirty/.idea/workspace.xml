@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e861a1f-8645-480a-bc54-5fb1e2f9e212" name="Changes" comment="Move all tests to same project">
+    <list default="true" id="2e861a1f-8645-480a-bc54-5fb1e2f9e212" name="Changes" comment="Clone a graph">
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/Dijkstra.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/MyMaxHeapTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/MyMinHeapTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/NetworkDelayTime.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/NumberOfIslands.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/Graph.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyMaxHeap.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/CloneGraphTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/CloneGraphTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/CloneGraph.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/CloneGraph.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/MyDequeue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyDequeue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/MyHashMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyHashMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/MyHeap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyMinHeap.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +49,10 @@
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/MyBinaryTreeTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/SameTreeProblemTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/CloneGraphTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/Dijkstra.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/MyMaxHeapTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/NetworkDelayTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/NumberOfIslands.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/FindCircularReferenceTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/FindTheMiddleTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/MergeTwoListsTests.cs" root0="FORCE_HIGHLIGHTING" />
@@ -52,7 +64,6 @@
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryOperationProblems/MissingNumber.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryOperationProblems/NumberOfOneBits.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryOperationProblems/NumberOfStepsToReduceToZero.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///home/rodrigo-lessa/github/hackerrank-resolutions/DSA.GetHandsDirty/DSA.GetHandsDirty/BinaryTreeProblems/BreadthFirstSearchTree.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/SameTreeProblem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Search/BreadthFirstSearch/BreadthFirstSearchTree.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Search/DepthFirstSearch/FindIfHasAPathSumProblem.cs" root0="FORCE_HIGHLIGHTING" />
@@ -75,33 +86,32 @@
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/QuickSort/RandomQuickSort.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.MyDataStructures/MyGraphNode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///home/rodrigo-lessa/github/hackerrank-resolutions/DSA.GetHandsDirty/DSA.MyDataStructures/MyQueue.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="32GGhDyD0zNvMsrUM8eeIlxp4oe" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "39315c9c-70f1-4756-90b8-0a2f512df61f.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "XThreadsFramesViewSplitterKey": "0.6967213",
-    "git-widget-placeholder": "feature/binary-search",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.smartKeys_rider",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;39315c9c-70f1-4756-90b8-0a2f512df61f.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.6967213&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/binary-search&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.smartKeys_rider&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2e861a1f-8645-480a-bc54-5fb1e2f9e212" name="Changes" comment="" />
@@ -109,7 +119,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1757039612967</updated>
-      <workItem from="1757039614792" duration="34814000" />
+      <workItem from="1757039614792" duration="36646000" />
+      <workItem from="1757529305225" duration="8908000" />
     </task>
     <task id="LOCAL-00001" summary="DFS problems">
       <option name="closed" value="true" />
@@ -135,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757352846024</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Clone a graph">
+      <option name="closed" value="true" />
+      <created>1757362310765</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1757362310765</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +166,8 @@
     <MESSAGE value="DFS problems" />
     <MESSAGE value="BFS problems" />
     <MESSAGE value="Move all tests to same project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Move all tests to same project" />
+    <MESSAGE value="Clone a graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clone a graph" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -157,10 +177,10 @@
           <line>17</line>
           <properties documentPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblemsTests/BinaryTreeFromTraversalTests.cs" containingFunctionPresentation="Method 'Insert_GivenAValidIntegerSequence_ShouldDistributeCorrectly'">
             <startOffsets>
-              <option value="639" />
+              <option value="604" />
             </startOffsets>
             <endOffsets>
-              <option value="677" />
+              <option value="630" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="41" />
@@ -181,14 +201,7 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Traversals/BinaryTreeOrderLevelTraversal.cs</url>
           <line>11</line>
-          <properties documentPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/BinaryTreeOrderLevelTraversal.cs" containingFunctionPresentation="Method 'LevelOrder'">
-            <startOffsets>
-              <option value="422" />
-            </startOffsets>
-            <endOffsets>
-              <option value="439" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/BinaryTreeOrderLevelTraversal.cs" containingFunctionPresentation="Method 'LevelOrder'" />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
@@ -203,6 +216,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/MyMinHeapTests.cs</url>
+          <line>50</line>
+          <properties documentPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/MyMinHeapTests.cs" containingFunctionPresentation="Method 'Pop_GivenAHeapWhenLeftChildIsBiggerThanRight_ShouldReorganizeHeap'">
+            <startOffsets>
+              <option value="1424" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1475" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
