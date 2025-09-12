@@ -19,21 +19,19 @@ public class CloneGraph
             return new MyGraphNode(node.val);
         
         var clones = new Dictionary<int, MyGraphNode> { { node.val, new MyGraphNode(node.val) } };
+        var seem = new Queue<MyGraphNode>();
+        seem.Enqueue(node);
 
-        // Fila de controle dos nodes visitados
-        var queue = new Queue<MyGraphNode>();
-        queue.Enqueue(node);
-
-        while (queue.Count > 0)
+        while (seem.Count > 0)
         {
-            // Remover os visitados da lista para inserir seus vizinhos
-            var original = queue.Dequeue();
+            // Remover os nodes visitados da lista para inserir seus vizinhos
+            var original = seem.Dequeue();
             var currentClone = clones[original.val];
 
             foreach (var neighbor in original.neighbors)
             {
                 if (clones.TryAdd(neighbor.val, new MyGraphNode(neighbor.val)))
-                    queue.Enqueue(neighbor);
+                    seem.Enqueue(neighbor);
                 
                 currentClone.neighbors.Add(clones[neighbor.val]);
             }
