@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e861a1f-8645-480a-bc54-5fb1e2f9e212" name="Changes" comment="Solve leet code problem merge sorted lists">
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/HeapProblems/TopKFrequentElementsTests.cs" afterDir="false" />
+    <list default="true" id="2e861a1f-8645-480a-bc54-5fb1e2f9e212" name="Changes" comment="Update workspace">
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/DijkstraTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/NetworkDelayTimeTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/NumberOfIslandsTests.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/Dijkstra.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/HeapProblems/TopKFrequentElements.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/KthLargestElementInAnArray.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/SortCharactersByFrequency.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/WordFrequency.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/CloneGraph.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/CloneGraph.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/HeapProblems/MergeKListsSolution.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/HeapProblems/MergeKListsSolution.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/NetworkDelayTime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/NetworkDelayTime.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/NumberOfIslands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/NumberOfIslands.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +45,9 @@
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/MyBinaryTreeTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/SameTreeProblemTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/CloneGraphTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/Dijkstra.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/NetworkDelayTime.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/NumberOfIslands.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/DijkstraTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/NetworkDelayTimeTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/NumberOfIslandsTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/HeapProblems/KthLargestElementInStreamTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/HeapProblems/KthLargestTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/HeapProblems/MergeKListsSolutionTests.cs" root0="FORCE_HIGHLIGHTING" />
@@ -74,6 +72,9 @@
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Traversals/BuildATreeFromInorderAndPostorderTraversals.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Traversals/BuildFromTraversalsAnotherExample.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/CloneGraph.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/Dijkstra.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/NetworkDelayTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/NumberOfIslands.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/HashMapProblems/TwoSum.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/HeapProblems/KthLargest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/HeapProblems/KthLargestElementInStream.cs" root0="FORCE_HIGHLIGHTING" />
@@ -130,7 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1757039612967</updated>
       <workItem from="1757039614792" duration="36646000" />
-      <workItem from="1757529305225" duration="34761000" />
+      <workItem from="1757529305225" duration="51987000" />
     </task>
     <task id="LOCAL-00001" summary="DFS problems">
       <option name="closed" value="true" />
@@ -268,7 +269,55 @@
       <option name="project" value="LOCAL" />
       <updated>1757639275159</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Add empty classes to have a reference of graph problems">
+      <option name="closed" value="true" />
+      <created>1757687513055</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1757687513055</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add empty classes to have a reference of heap problems">
+      <option name="closed" value="true" />
+      <created>1757687547172</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1757687547172</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Improve variables name">
+      <option name="closed" value="true" />
+      <created>1757687580409</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1757687580409</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Solve top k frequent elements problem">
+      <option name="closed" value="true" />
+      <created>1757687618907</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1757687618907</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Return null if inside list is empty">
+      <option name="closed" value="true" />
+      <created>1757687650951</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1757687650951</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Update workspace">
+      <option name="closed" value="true" />
+      <created>1757687660616</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1757687660616</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +343,13 @@
     <MESSAGE value="Implement a kth highest scores using my minHeap data structure" />
     <MESSAGE value="Implement a kth largest element using built-in priority queue" />
     <MESSAGE value="Solve leet code problem merge sorted lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve leet code problem merge sorted lists" />
+    <MESSAGE value="Add empty classes to have a reference of graph problems" />
+    <MESSAGE value="Add empty classes to have a reference of heap problems" />
+    <MESSAGE value="Improve variables name" />
+    <MESSAGE value="Solve top k frequent elements problem" />
+    <MESSAGE value="Return null if inside list is empty" />
+    <MESSAGE value="Update workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update workspace" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
