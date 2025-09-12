@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e861a1f-8645-480a-bc54-5fb1e2f9e212" name="Changes" comment="Clone a graph">
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/Dijkstra.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/MyMaxHeapTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/MyMinHeapTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/NetworkDelayTime.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/NumberOfIslands.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/Graph.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyMaxHeap.cs" afterDir="false" />
+    <list default="true" id="2e861a1f-8645-480a-bc54-5fb1e2f9e212" name="Changes" comment="Solve leet code problem merge sorted lists">
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/HeapProblems/TopKFrequentElementsTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/Dijkstra.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/HeapProblems/TopKFrequentElements.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/KthLargestElementInAnArray.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/SortCharactersByFrequency.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/WordFrequency.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/MyDequeue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyDequeue.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/MyHashMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyHashMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/MyHeap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyMinHeap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/CloneGraph.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/CloneGraph.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/HeapProblems/MergeKListsSolution.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/HeapProblems/MergeKListsSolution.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,15 +42,19 @@
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/BinaryTreeTraversalsTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/BreadthFirstSearchTreeTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/BuildATreeFromInorderAndPostorderTraversalsTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/FindIfHasAPathSumProblemTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/FindIfHasAPathSumSolutionTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/MaximumDepthOfBinaryTreeTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/MyBinaryTreeTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/SameTreeProblemTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/CloneGraphTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/Dijkstra.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/MyMaxHeapTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/NetworkDelayTime.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/NumberOfIslands.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/HeapProblems/KthLargestElementInStreamTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/HeapProblems/KthLargestTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/HeapProblems/MergeKListsSolutionTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/HeapProblems/MyMaxHeapTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/HeapProblems/TopKFrequentElementsTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/FindCircularReferenceTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/FindTheMiddleTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/MergeTwoListsTests.cs" root0="FORCE_HIGHLIGHTING" />
@@ -66,24 +68,32 @@
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryOperationProblems/NumberOfStepsToReduceToZero.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/SameTreeProblem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Search/BreadthFirstSearch/BreadthFirstSearchTree.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Search/DepthFirstSearch/FindIfHasAPathSumProblem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Search/DepthFirstSearch/FindIfHasAPathSumSolution.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Search/DepthFirstSearch/MaximumDepthOfBinaryTree.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Traversals/BinaryTreeOrderLevelTraversal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Traversals/BuildATreeFromInorderAndPostorderTraversals.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Traversals/BuildFromTraversalsAnotherExample.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/CloneGraph.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/HashMapProblems/TwoSum.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/HeapProblems/KthLargest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/HeapProblems/KthLargestElementInStream.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/HeapProblems/MergeKListsSolution.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/HeapProblems/TopKFrequentElements.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/KthLargestElementInAnArray.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/FindCircularReference.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/FindTheMiddle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/MergeTwoLists.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/TextEditorUndoFunction/MyTextEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SlidingWindow/ContainsNearbyDuplicate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SortCharactersByFrequency.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/BubbleSort/GenericBubbleSort.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/MergeSort/IntegerMergeSort.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/QuickSort/MedianOfThreeQuickSort.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/QuickSort/NaiveQuickSort.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/QuickSort/QuickSortCommon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/QuickSort/RandomQuickSort.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/WordFrequency.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.MyDataStructures/LeetCodeStructures/ListNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.MyDataStructures/MyGraphNode.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -120,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1757039612967</updated>
       <workItem from="1757039614792" duration="36646000" />
-      <workItem from="1757529305225" duration="8908000" />
+      <workItem from="1757529305225" duration="34761000" />
     </task>
     <task id="LOCAL-00001" summary="DFS problems">
       <option name="closed" value="true" />
@@ -154,7 +164,111 @@
       <option name="project" value="LOCAL" />
       <updated>1757362310765</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implement min heap">
+      <option name="closed" value="true" />
+      <created>1757543606597</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757543606597</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Implement generic graph">
+      <option name="closed" value="true" />
+      <created>1757543628732</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1757543628732</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Implement max heap">
+      <option name="closed" value="true" />
+      <created>1757543647240</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1757543647240</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Empty graph problemas">
+      <option name="closed" value="true" />
+      <created>1757543685913</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1757543685913</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Initial description">
+      <option name="closed" value="true" />
+      <created>1757543707319</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1757543707319</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Hashmap initial description">
+      <option name="closed" value="true" />
+      <created>1757543718462</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1757543718462</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Improve solution name">
+      <option name="closed" value="true" />
+      <created>1757638756948</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1757638756948</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Move structure to a self class">
+      <option name="closed" value="true" />
+      <created>1757638811961</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1757638811961</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Implement a minHeap structure">
+      <option name="closed" value="true" />
+      <created>1757638865934</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1757638865934</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Implement a maxHeap structure">
+      <option name="closed" value="true" />
+      <created>1757638877506</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1757638877506</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Implement a kth highest scores using my minHeap data structure">
+      <option name="closed" value="true" />
+      <created>1757639060619</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1757639060619</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Implement a kth largest element using built-in priority queue">
+      <option name="closed" value="true" />
+      <created>1757639117684</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1757639117684</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Solve leet code problem merge sorted lists">
+      <option name="closed" value="true" />
+      <created>1757639275159</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1757639275159</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +281,20 @@
     <MESSAGE value="BFS problems" />
     <MESSAGE value="Move all tests to same project" />
     <MESSAGE value="Clone a graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clone a graph" />
+    <MESSAGE value="Implement min heap" />
+    <MESSAGE value="Implement generic graph" />
+    <MESSAGE value="Implement max heap" />
+    <MESSAGE value="Empty graph problemas" />
+    <MESSAGE value="Initial description" />
+    <MESSAGE value="Hashmap initial description" />
+    <MESSAGE value="Improve solution name" />
+    <MESSAGE value="Move structure to a self class" />
+    <MESSAGE value="Implement a minHeap structure" />
+    <MESSAGE value="Implement a maxHeap structure" />
+    <MESSAGE value="Implement a kth highest scores using my minHeap data structure" />
+    <MESSAGE value="Implement a kth largest element using built-in priority queue" />
+    <MESSAGE value="Solve leet code problem merge sorted lists" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve leet code problem merge sorted lists" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -186,14 +313,14 @@
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Search/DepthFirstSearch/FindIfHasAPathSumProblem.cs</url>
+          <url>file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Search/DepthFirstSearch/FindIfHasAPathSumSolution.cs</url>
           <line>13</line>
           <properties documentPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/DepthFirstSearchTree.cs" containingFunctionPresentation="Method 'HasPathSum'">
             <startOffsets>
-              <option value="407" />
+              <option value="408" />
             </startOffsets>
             <endOffsets>
-              <option value="424" />
+              <option value="425" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="42" />
@@ -218,17 +345,17 @@
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/MyMinHeapTests.cs</url>
-          <line>50</line>
-          <properties documentPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/MyMinHeapTests.cs" containingFunctionPresentation="Method 'Pop_GivenAHeapWhenLeftChildIsBiggerThanRight_ShouldReorganizeHeap'">
+          <url>file://$PROJECT_DIR$/DSA.MyDataStructures/MyMaxHeap.cs</url>
+          <line>17</line>
+          <properties documentPath="$PROJECT_DIR$/DSA.MyDataStructures/MyMaxHeap.cs" containingFunctionPresentation="Method 'HeapifyUp'">
             <startOffsets>
-              <option value="1424" />
+              <option value="527" />
             </startOffsets>
             <endOffsets>
-              <option value="1475" />
+              <option value="578" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="48" />
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
