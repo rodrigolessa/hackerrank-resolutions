@@ -1,4 +1,4 @@
-namespace DSA.GetHandsDirty.UnitTests.GraphProblems;
+namespace DSA.GetHandsDirty.GraphProblems;
 
 /// <summary>
 /// LeetCode 200
