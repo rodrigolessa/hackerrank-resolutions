@@ -19,6 +19,9 @@ public class MergeKListsSolution
                 continue;
             queue.Enqueue(node, node.val);
         }
+        
+        if (queue.Count == 0)
+            return default;
 
         ListNode emptyHead = new ListNode();
         ListNode mergedTail = emptyHead;
