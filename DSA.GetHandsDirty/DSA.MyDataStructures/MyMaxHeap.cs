@@ -10,14 +10,14 @@ public class MyMaxHeap<T> where T : IComparable<T>
 
     private void HeapifyUp(int index)
     {
-        // Sobe cada level até chegar no 0 onde não é preciso fazer operações e vai do loop recursivo
+        // Sobe cada level até chegar no 0 onde não é preciso fazer operações e sai da recursividade
         if (index == 0) return;
 
         int parentIndex = Parent(index);
 
         if (_heap[index].CompareTo(_heap[parentIndex]) > 0)
         {
-            (_heap[parentIndex], _heap[index]) = (_heap[parentIndex], _heap[index]);
+            (_heap[parentIndex], _heap[index]) = (_heap[index], _heap[parentIndex]);
             HeapifyUp(parentIndex);
         }
     }
@@ -49,7 +49,7 @@ public class MyMaxHeap<T> where T : IComparable<T>
         HeapifyUp(_heap.Count - 1);
     }
 
-    private T? Peek()
+    public T? Peek()
     {
         if (_heap.Count == 0)
             return default;
@@ -57,7 +57,7 @@ public class MyMaxHeap<T> where T : IComparable<T>
         return _heap[0];
     }
 
-    private T? Pop()
+    public T? Pop()
     {
         int lastPosition = _heap.Count - 1;
         if (lastPosition < 0)
