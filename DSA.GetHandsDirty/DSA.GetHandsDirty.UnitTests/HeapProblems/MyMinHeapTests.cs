@@ -1,6 +1,6 @@
 using DSA.MyDataStructures;
 
-namespace DSA.GetHandsDirty.UnitTests.GraphProblems;
+namespace DSA.GetHandsDirty.UnitTests.HeapProblems;
 
 public class MyMinHeapTests
 {

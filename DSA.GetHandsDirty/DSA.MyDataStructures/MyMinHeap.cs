@@ -1,5 +1,3 @@
-using System.Xml.Schema;
-
 namespace DSA.MyDataStructures;
 
 /// <summary>
@@ -16,6 +14,8 @@ namespace DSA.MyDataStructures;
 /// - usando uma formula para acessar seu índice:
 ///     - posição à esquerda (index * 2 + 1)
 ///     - posição à direita (index * 2 + 2)
+///
+/// Obs: Starting with .NET 6, the BCL introduced PriorityQueue TElement, TPriority, which internally uses a binary min-heap under the hood.
 /// </summary>
 public class MyMinHeap<T> where T : IComparable<T>
 {
@@ -62,6 +62,8 @@ public class MyMinHeap<T> where T : IComparable<T>
             HeapifyDown(biggest);
         }
     }
+    
+    public int Count => _heap.Count;
 
     public T[] ToArray()
     {
