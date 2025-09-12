@@ -7,7 +7,7 @@ namespace DSA.GetHandsDirty.BinaryTreeProblems.Search.DepthFirstSearch;
 /// LeetCode 112 - DFS
 /// Buscar recursivamente os nodes até chegar a uma folha e verificar se a subtração do target é igual a zero;
 /// </summary>
-public class FindIfHasAPathSumProblem
+public class FindIfHasAPathSumSolution
 {
     public bool HasPathSum(MyBinaryNode? root, int targetSum)
     {

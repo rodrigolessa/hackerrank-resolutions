@@ -2,7 +2,7 @@ using DSA.GetHandsDirty.BinaryTreeProblems.Search.DepthFirstSearch;
 
 namespace DSA.GetHandsDirty.UnitTests.BinaryTreeProblems;
 
-public class FindIfHasAPathSumProblemTests
+public class FindIfHasAPathSumSolutionTests
 {
     [Theory]
     [InlineData(29, true)]
@@ -11,7 +11,7 @@ public class FindIfHasAPathSumProblemTests
     [InlineData(21, false)]
     public void HasPathSum_GivenAValidTreeWithCorrectPathSum_ShouldReturnTrue(int targetSum, bool expected)
     {
-        var dfs = new FindIfHasAPathSumProblem();
+        var dfs = new FindIfHasAPathSumSolution();
         var treeRoot = DummyData.GetMyFourLevelsBinaryTree().Root;
         var hasSum = dfs.HasPathSum(treeRoot, targetSum);
         hasSum.ShouldBe(expected);
