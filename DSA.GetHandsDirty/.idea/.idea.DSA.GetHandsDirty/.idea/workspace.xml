@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e861a1f-8645-480a-bc54-5fb1e2f9e212" name="Changes" comment="Update workspace">
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/DijkstraTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/NetworkDelayTimeTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/NumberOfIslandsTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/Dijkstra.cs" afterDir="false" />
+    <list default="true" id="2e861a1f-8645-480a-bc54-5fb1e2f9e212" name="Changes" comment="Problem reference">
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/CourseScheduleTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/CourseSchedule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/NetworkDelayTime2.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/NetworkDelayTime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/NetworkDelayTime.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/NumberOfIslandsTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/NumberOfIslandsTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/NumberOfIslands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/NumberOfIslands.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +44,7 @@
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/MyBinaryTreeTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/SameTreeProblemTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/CloneGraphTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/CourseScheduleTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/DijkstraTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/NetworkDelayTimeTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/NumberOfIslandsTests.cs" root0="FORCE_HIGHLIGHTING" />
@@ -72,9 +72,12 @@
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Traversals/BuildATreeFromInorderAndPostorderTraversals.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Traversals/BuildFromTraversalsAnotherExample.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/CloneGraph.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/CourseSchedule.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/Dijkstra.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/NetworkDelayTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/NetworkDelayTime2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/NumberOfIslands.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/NumberOfIslands2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/HashMapProblems/TwoSum.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/HeapProblems/KthLargest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/HeapProblems/KthLargestElementInStream.cs" root0="FORCE_HIGHLIGHTING" />
@@ -131,7 +134,7 @@
       <option name="presentableId" value="Default" />
       <updated>1757039612967</updated>
       <workItem from="1757039614792" duration="36646000" />
-      <workItem from="1757529305225" duration="51987000" />
+      <workItem from="1757529305225" duration="71335000" />
     </task>
     <task id="LOCAL-00001" summary="DFS problems">
       <option name="closed" value="true" />
@@ -317,7 +320,23 @@
       <option name="project" value="LOCAL" />
       <updated>1757687660616</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Dijkstra problem">
+      <option name="closed" value="true" />
+      <created>1757717586719</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1757717586719</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Problem reference">
+      <option name="closed" value="true" />
+      <created>1757717638404</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1757717638404</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +368,9 @@
     <MESSAGE value="Solve top k frequent elements problem" />
     <MESSAGE value="Return null if inside list is empty" />
     <MESSAGE value="Update workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workspace" />
+    <MESSAGE value="Dijkstra problem" />
+    <MESSAGE value="Problem reference" />
+    <option name="LAST_COMMIT_MESSAGE" value="Problem reference" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
