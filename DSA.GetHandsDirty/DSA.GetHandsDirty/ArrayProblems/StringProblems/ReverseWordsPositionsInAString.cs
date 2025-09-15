@@ -13,7 +13,7 @@ public static class ReverseWordsPositionsInAString
         var left = 0;
         var right = chars.Length - 1;
 
-        // Firts - reverse the entire string
+        // First - reverse the entire string
         ReverseAnEntireString.ReverseSubset(left, right, chars);
 
         right = 0;
@@ -40,26 +40,34 @@ public static class ReverseWordsPositionsInAString
 
     public static object ReverseRemovingSpace(string input)
     {
-        var chars = input.ToArray();
-        var left = 0;
-        var right = chars.Length - 1;
-        var writeIndex = 0;
-        var previousSpace = false; // tracks whether the previous character was a space.
+        char[] chars = input.ToArray();
+        int startIndex = 0;
+        // Check there are blank spaces at the beginning
+        while (startIndex < chars.Length && chars[startIndex] == ' ')
+            startIndex++;
 
-        // Firts - reverse the entire string
+        int left = startIndex;
+        int right = chars.Length - 1;
+        // First - reverse the entire string
         ReverseAnEntireString.ReverseSubset(left, right, chars);
+        
+        while (startIndex < chars.Length && chars[startIndex] == ' ')
+            startIndex++;
 
-        right = 0;
+        //bool previousSpace = false; // tracks whether the previous character was a space.
+        
+        left = startIndex;
+        right = startIndex;
         while (right < chars.Length)
         {
             // Then - find where words are in the string looking for blank space
             if (chars[right] == ' ')
             {
-                if (!previousSpace)
-                {
-                    chars[writeIndex++] = ' ';
-                    previousSpace = true;
-                }
+                // if (!previousSpace)
+                // {
+                //     chars[writeIndex++] = ' ';
+                //     previousSpace = true;
+                // }
 
                 // And - reverse this substring
                 ReverseAnEntireString.ReverseSubset(left, right - 1, chars);
@@ -68,8 +76,8 @@ public static class ReverseWordsPositionsInAString
                 continue;
             }
 
-            chars[writeIndex++] = chars[right];
-            previousSpace = false;
+            //chars[writeIndex++] = chars[right];
+            //previousSpace = false;
 
             right++;
         }
@@ -77,9 +85,6 @@ public static class ReverseWordsPositionsInAString
         // And - Reverse the last word that was left behind
         ReverseAnEntireString.ReverseSubset(left, right - 1, chars);
 
-        if (writeIndex > 0 && chars[writeIndex - 1] == ' ')
-            writeIndex--;
-
-        return new string(chars, 0, writeIndex);
+        return new string(chars, startIndex, chars.Length - startIndex);
     }
 }
