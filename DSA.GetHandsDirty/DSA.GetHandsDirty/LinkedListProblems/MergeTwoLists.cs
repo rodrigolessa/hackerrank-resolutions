@@ -5,7 +5,7 @@ namespace DSA.GetHandsDirty.LinkedListProblems;
 
 public static class MergeTwoLists
 {
-    public static MyLinkedNode<int> MergeAndSort(MyLinkedNode<int>? list1, MyLinkedNode<int>? list2)
+    public static MyNode<int> MergeAndSort(MyNode<int>? list1, MyNode<int>? list2)
     {
         if (list1 is null)
             return list2;
@@ -16,10 +16,10 @@ public static class MergeTwoLists
         return Merge(list1, list2);
     }
 
-    private static MyLinkedNode<int> Merge(MyLinkedNode<int> list1, MyLinkedNode<int> list2)
+    private static MyNode<int> Merge(MyNode<int> list1, MyNode<int> list2)
     {
         // Initialize a new list with empty node
-        var head = new MyLinkedNode<int>(0);
+        var head = new MyNode<int>(0);
         var tail = head;
 
         while (list1 is not null && list2 is not null)

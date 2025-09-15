@@ -4,7 +4,7 @@ namespace DSA.GetHandsDirty.LinkedListProblems;
 
 public static class ReverseBetween<T>
 {
-    public static MyLinkedNode<T> Execute(MyLinkedNode<T> head, int left, int right)
+    public static MyNode<T> Execute(MyNode<T> head, int left, int right)
     {
         if (head.Next is null || left == 0)
             return head;
@@ -23,7 +23,7 @@ public static class ReverseBetween<T>
         return head;
     }
 
-    private static MyLinkedNode<T> FindNodeByPosition(MyLinkedNode<T> head, int position)
+    private static MyNode<T> FindNodeByPosition(MyNode<T> head, int position)
     {
         if (position == 1)
         {

@@ -15,14 +15,14 @@ namespace DSA.GetHandsDirty.LinkedListProblems.TextEditorUndoFunction;
 /// </summary>
 public sealed class MyTextEditor
 {
-    private MyLinkedNode<string>? _currentContent = new ("");
+    private MyNode<string>? _currentContent = new ("");
 
     public string GetContent() => _currentContent.Value;
 
     public void WriteText(string newText)
     {
         var updated = string.Concat(_currentContent.Value, newText);
-        var newEntry = new MyLinkedNode<string>(updated)
+        var newEntry = new MyNode<string>(updated)
         {
             Previous = _currentContent
         };

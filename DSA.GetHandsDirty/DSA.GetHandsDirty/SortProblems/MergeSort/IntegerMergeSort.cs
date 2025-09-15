@@ -8,7 +8,7 @@ namespace DSA.GetHandsDirty.SortProblems.MergeSort;
 /// </summary>
 public static class IntegerMergeSort
 {
-    public static MyLinkedNode<int>? Sort(MyLinkedNode<int>? head)
+    public static MyNode<int>? Sort(MyNode<int>? head)
     {
         if (head?.Next is null)
         {
@@ -37,10 +37,10 @@ public static class IntegerMergeSort
     /// <param name="left"></param>
     /// <param name="right"></param>
     /// <returns></returns>
-    private static MyLinkedNode<int>? Merge(MyLinkedNode<int>? left, MyLinkedNode<int>? right)
+    private static MyNode<int>? Merge(MyNode<int>? left, MyNode<int>? right)
     {
         // Start with an empty list. It will be discarded at the end of algorithm
-        var head = new MyLinkedNode<int>(0);
+        var head = new MyNode<int>(0);
         var tail = head; // O tail é meu ponteiro a cada iteração eu devo mover para o próximo 
 
         // Percorrer as duas listas para verificar se a ordem está correta?
@@ -76,7 +76,7 @@ public static class IntegerMergeSort
         return head.Next;
     }
     
-    private static MyLinkedNode<int> FindTheMiddle(MyLinkedNode<int> head)
+    private static MyNode<int> FindTheMiddle(MyNode<int> head)
     {
         var slow = head;
         var fast = head.Next;

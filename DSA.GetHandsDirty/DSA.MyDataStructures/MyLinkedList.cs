@@ -4,21 +4,14 @@ using DSA.MyDataStructures.Abstractions;
 
 namespace DSA.MyDataStructures;
 
-public class MyLinkedNode<T>(T value)
-{
-    public T Value { get; set; } = value;
-    public MyLinkedNode<T>? Previous { get; set; }
-    public MyLinkedNode<T>? Next { get; set; }
-}
-
 public class MyLinkedList<T> : IMyLinkedList<T>
 {
-    public MyLinkedNode<T>? Head { get; set; }
-    public MyLinkedNode<T>? Tail { get; set; }
+    public MyNode<T>? Head { get; set; }
+    public MyNode<T>? Tail { get; set; }
 
     public IMyLinkedList<T> AddInFirstPosition(T value)
     {
-        var node = new MyLinkedNode<T>(value);
+        var node = new MyNode<T>(value);
         if (Head is not null)
         {
             node.Next = Head;
@@ -32,7 +25,7 @@ public class MyLinkedList<T> : IMyLinkedList<T>
 
     public IMyLinkedList<T> AddInLastPosition(T value)
     {
-        var node = new MyLinkedNode<T>(value);
+        var node = new MyNode<T>(value);
         if (Tail is not null)
         {
             Tail.Next = node;
@@ -105,7 +98,7 @@ public class MyLinkedList<T> : IMyLinkedList<T>
         if (Head is null)
             return;
 
-        MyLinkedNode<T> currentNode = default;
+        MyNode<T> currentNode = default;
         var nextNode = Head;
         while (nextNode is not null)
         {

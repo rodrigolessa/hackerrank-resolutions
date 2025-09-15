@@ -2,12 +2,12 @@ namespace DSA.MyDataStructures;
 
 public class MyDoublyLinkedList<T>
 {
-    public MyLinkedNode<T>? Head { get; set; }
-    public MyLinkedNode<T>? Tail { get; set; }
+    public MyNode<T>? Head { get; set; }
+    public MyNode<T>? Tail { get; set; }
 
     public void InsertAtTheBeginning(T value)
     {
-        var node = new MyLinkedNode<T>(value);
+        var node = new MyNode<T>(value);
         if (Head is not null)
         {
             node.Next = Head;
@@ -20,7 +20,7 @@ public class MyDoublyLinkedList<T>
 
     public void InsertAtTheEnd(T value)
     {
-        var node = new MyLinkedNode<T>(value);
+        var node = new MyNode<T>(value);
         if (Tail is not null)
         {
             Tail.Next = node;

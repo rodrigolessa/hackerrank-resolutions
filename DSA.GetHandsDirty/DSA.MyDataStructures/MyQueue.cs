@@ -6,24 +6,24 @@ namespace DSA.MyDataStructures;
 /// </summary>
 public class MyQueue<T>
 {
-    public MyLinkedNode<T>? Head { get; set; }
-    public MyLinkedNode<T>? Tail { get; set; }
+    public MyNode<T>? Head { get; set; }
+    public MyNode<T>? Tail { get; set; }
 
     public void Enqueue(T item) // PUT - Insert at last position
     {
         if (Head is null)
-            Head = new MyLinkedNode<T>(item);
+            Head = new MyNode<T>(item);
         
         if (Tail is null)
-            Tail = new MyLinkedNode<T>(item);
+            Tail = new MyNode<T>(item);
         else
         {
-            Tail.Next = new MyLinkedNode<T>(item);
+            Tail.Next = new MyNode<T>(item);
             Tail = Tail.Next;
         }
     }
 
-    public MyLinkedNode<T>? Dequeue() // POP OR GET - Return first element and remove it;
+    public MyNode<T>? Dequeue() // POP OR GET - Return first element and remove it;
     {
         // TODO: Criar controles para paralelismo - Blocks and TimeOuts
         if (Head is null)
@@ -35,7 +35,7 @@ public class MyQueue<T>
         return currentHead;
     }
 
-    public MyLinkedNode<T>? Peek()
+    public MyNode<T>? Peek()
     {
         return Head;
     }

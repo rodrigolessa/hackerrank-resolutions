@@ -24,10 +24,10 @@ public class FindCircularReferenceTests
     [Fact]
     public void FindCircularReference_GivenACircularLinkedList_ShouldReturnTrue()
     {
-        var nodeA = new MyLinkedNode<string>("A");
-        var nodeB = new MyLinkedNode<string>("B");
-        var nodeC = new MyLinkedNode<string>("C");
-        var nodeD = new MyLinkedNode<string>("D");
+        var nodeA = new MyNode<string>("A");
+        var nodeB = new MyNode<string>("B");
+        var nodeC = new MyNode<string>("C");
+        var nodeD = new MyNode<string>("D");
         nodeA.Next = nodeB;
         nodeB.Next = nodeC;
         nodeC.Next = nodeD;

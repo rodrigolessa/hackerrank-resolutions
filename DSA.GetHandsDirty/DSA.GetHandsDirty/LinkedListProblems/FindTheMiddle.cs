@@ -5,7 +5,7 @@ namespace DSA.GetHandsDirty.LinkedListProblems;
 
 public static class FindTheMiddle<T>
 {
-    public static MyLinkedNode<T> Find(MyLinkedNode<T> head)
+    public static MyNode<T> Find(MyNode<T> head)
     {
         var slow = head;
         var fast = head;
