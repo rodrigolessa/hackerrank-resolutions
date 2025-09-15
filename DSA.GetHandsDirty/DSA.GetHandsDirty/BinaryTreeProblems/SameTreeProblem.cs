@@ -20,7 +20,7 @@ public class SameTreeProblem
         if (p is null && q is null)
             return true;
         
-        if (p.Data != q.Data)
+        if (p?.Data != q.Data)
             return false;
 
         var isSameLeft = IsSameNodeValue(p?.LeftChild, q?.LeftChild);
