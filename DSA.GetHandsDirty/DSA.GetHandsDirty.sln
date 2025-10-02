@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.GetHandsDirty", "DSA.GetHandsDirty\DSA.GetHandsDirty.csproj", "{78BB3395-F3FF-4FA9-BE55-336379907008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.MyDataStructures", "DSA.MyDataStructures\DSA.MyDataStructures.csproj", "{CCE3E852-0729-4D3F-AEF0-7A60D89F8A89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.GetHandsDirty.UnitTests", "DSA.GetHandsDirty.UnitTests\DSA.GetHandsDirty.UnitTests.csproj", "{EF3E9685-332C-4E32-813F-2997A8A24E78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78BB3395-F3FF-4FA9-BE55-336379907008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78BB3395-F3FF-4FA9-BE55-336379907008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78BB3395-F3FF-4FA9-BE55-336379907008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78BB3395-F3FF-4FA9-BE55-336379907008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCE3E852-0729-4D3F-AEF0-7A60D89F8A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE3E852-0729-4D3F-AEF0-7A60D89F8A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE3E852-0729-4D3F-AEF0-7A60D89F8A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE3E852-0729-4D3F-AEF0-7A60D89F8A89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF3E9685-332C-4E32-813F-2997A8A24E78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF3E9685-332C-4E32-813F-2997A8A24E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF3E9685-332C-4E32-813F-2997A8A24E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF3E9685-332C-4E32-813F-2997A8A24E78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
