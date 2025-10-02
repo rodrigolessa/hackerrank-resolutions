@@ -2,9 +2,8 @@
 🖥️ This repository is dedicated to study and practice, focusing on solving diverse coding challenges with an emphasis on best practices.
 
 ## About the project
-Here you will find solutions for LeetCode commun problems and unit tests to validate them.
-I also created homemade implementations of some data structures using C# to in the algorithms. 
-Feel free to contribute!
+Here you will find solutions to common LeetCode problems along with unit tests for validation. I have also built custom implementations of some data structures in C# to support the algorithms.
+Contributions are welcome!
 
 ## Implemented Data Structures
 - Graph
