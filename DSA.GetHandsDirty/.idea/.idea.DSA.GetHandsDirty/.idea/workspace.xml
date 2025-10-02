@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e861a1f-8645-480a-bc54-5fb1e2f9e212" name="Changes" comment="Fix null reference">
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/DynamicProblems/KnapsackTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/DynamicProgrammingTechnique/DecoyWaysProblem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/DynamicProgrammingTechnique/KnapsackProblem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/DynamicProgrammingTechnique/LRUCache.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/DynamicProgrammingTechnique/LastStoneWeight2Problem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryNode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs" afterDir="false" />
+    <list default="true" id="2e861a1f-8645-480a-bc54-5fb1e2f9e212" name="Changes" comment="Dynamic programming problems">
+      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/DSA.GetHandsDirty.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/DSA.GetHandsDirty.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,6 +158,7 @@
       <workItem from="1758288195174" duration="3401000" />
       <workItem from="1758305732080" duration="19702000" />
       <workItem from="1758916780999" duration="601000" />
+      <workItem from="1759429876275" duration="1524000" />
     </task>
     <task id="LOCAL-00001" summary="DFS problems">
       <option name="closed" value="true" />
@@ -478,7 +472,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758210660008</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Dynamic programming problems">
+      <option name="closed" value="true" />
+      <created>1759430713901</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1759430713901</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,7 +489,6 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement a minHeap structure" />
     <MESSAGE value="Implement a maxHeap structure" />
     <MESSAGE value="Implement a kth highest scores using my minHeap data structure" />
     <MESSAGE value="Implement a kth largest element using built-in priority queue" />
@@ -512,7 +513,8 @@
     <MESSAGE value="Add anagram problems" />
     <MESSAGE value="Add LeetCode reference" />
     <MESSAGE value="Fix null reference" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix null reference" />
+    <MESSAGE value="Dynamic programming problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dynamic programming problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

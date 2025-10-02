@@ -8,7 +8,7 @@
 
     <ItemGroup>
       <Folder Include="ArrayProblems\" />
-      <Folder Include="TwoPointersTecnique\" />
+      <Folder Include="TwoPointersTechnique\" />
     </ItemGroup>
 
     <ItemGroup>
