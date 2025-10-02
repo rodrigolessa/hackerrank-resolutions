@@ -4,24 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e861a1f-8645-480a-bc54-5fb1e2f9e212" name="Changes" comment="Dijkstra problem">
-      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/StackProblems/MyStackTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyNode.cs" afterDir="false" />
+    <list default="true" id="2e861a1f-8645-480a-bc54-5fb1e2f9e212" name="Changes" comment="Fix null reference">
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/DynamicProblems/KnapsackTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/DynamicProgrammingTechnique/DecoyWaysProblem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/DynamicProgrammingTechnique/KnapsackProblem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/DynamicProgrammingTechnique/LRUCache.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/DynamicProgrammingTechnique/LastStoneWeight2Problem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryNode.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSA.GetHandsDirty/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/FindCircularReferenceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/FindCircularReferenceTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/ArrayProblems/StringProblems/ReverseWordsPositionsInAString.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/ArrayProblems/StringProblems/ReverseWordsPositionsInAString.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/SameTreeProblem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/SameTreeProblem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/FindCircularReference.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/FindCircularReference.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/FindTheMiddle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/FindTheMiddle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/MergeTwoLists.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/MergeTwoLists.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/ReverseBetween.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/ReverseBetween.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/TextEditorUndoFunction/MyTextEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/TextEditorUndoFunction/MyTextEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/MergeSort/IntegerMergeSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/MergeSort/IntegerMergeSort.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/Abstractions/IMyLinkedList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/Abstractions/IMyLinkedList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/MyDoublyLinkedList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyDoublyLinkedList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/MyLinkedList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyLinkedList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/MyQueue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyQueue.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/MyStack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyStack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +26,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/73939e3531f54aaf9b146cb70ddc43c939600/e8/db65a3a2/LinkedListNode`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e8f465656045425a84003f974b953d2fb2e200/08/5f58c8b1/List`1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e8f465656045425a84003f974b953d2fb2e200/1a/28caf605/MethodBaseInvoker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e8f465656045425a84003f974b953d2fb2e200/cf/a405705c/Array.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e8f465656045425a84003f974b953d2fb2e200/ef/d21daa63/Queue`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ec1eae7bf46e4a4d9d7dc16f78459e478c00/51/02b39b0b/LinkedListNode`1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1f7d81c92c01349f8e68213d932e21041fa2083dc3c66e37a976b86d247666/ShouldBeBooleanExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d11a2737ca35a566a9df82947e9c6ee87f0145228c62c4bd76a213890715ba4/ShouldlyCoreExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f5545b2656401abe1a371ad2756d7d2328a38293f7ee8b163801bbf55cee8/TestInvoker.cs" root0="FORCE_HIGHLIGHTING" />
@@ -54,6 +48,7 @@
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/MaximumDepthOfBinaryTreeTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/MyBinaryTreeTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/BinaryTreeProblems/SameTreeProblemTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/DynamicProblems/KnapsackTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/CloneGraphTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/CourseScheduleTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/GraphProblems/DijkstraTests.cs" root0="FORCE_HIGHLIGHTING" />
@@ -64,6 +59,7 @@
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/HeapProblems/MergeKListsSolutionTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/HeapProblems/MyMaxHeapTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/HeapProblems/TopKFrequentElementsTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/AddTwoNumbersTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/FindCircularReferenceTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/FindTheMiddleTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/LinkedListProblems/MergeTwoListsTests.cs" root0="FORCE_HIGHLIGHTING" />
@@ -71,8 +67,16 @@
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/SortProblems/BubbleSort/GenericBubbleSortTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/SortProblems/MergeSort/DefaultMergeSortTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/SortProblems/QuickSort/NaiveQuickSortTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/StackProblems/DailyTemperaturesTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/StackProblems/MyMinStackTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/StackProblems/MyStackTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty.UnitTests/StackProblems/ValidParenthesesTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/AnagramProblems/CountAnagramsProblem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/AnagramProblems/GroupAnagramsProblem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/AnagramProblems/MinimumLengthOfAnagramConcatenation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/AnagramProblems/MinimumNumberOfStepsToMakeTwoStringsAnagram.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/ArrayProblems/StringProblems/LengthOfLongestSubstring.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/AsteroidCollisionProblem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryOperationProblems/MissingNumber.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryOperationProblems/NumberOfOneBits.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryOperationProblems/NumberOfStepsToReduceToZero.cs" root0="FORCE_HIGHLIGHTING" />
@@ -83,6 +87,12 @@
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Traversals/BinaryTreeOrderLevelTraversal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Traversals/BuildATreeFromInorderAndPostorderTraversals.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/BinaryTreeProblems/Traversals/BuildFromTraversalsAnotherExample.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/DynamicProgrammingTechnique/ClimbingStairsProblem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/DynamicProgrammingTechnique/DecoyWaysProblem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/DynamicProgrammingTechnique/FibonacciNumbers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/DynamicProgrammingTechnique/KnapsackProblem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/DynamicProgrammingTechnique/LRUCache.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/DynamicProgrammingTechnique/LastStoneWeight2Problem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/CloneGraph.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/CourseSchedule.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/GraphProblems/Dijkstra.cs" root0="FORCE_HIGHLIGHTING" />
@@ -96,6 +106,7 @@
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/HeapProblems/MergeKListsSolution.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/HeapProblems/TopKFrequentElements.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/KthLargestElementInAnArray.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/AddTwoNumbersProblem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/FindCircularReference.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/FindTheMiddle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/MergeTwoLists.cs" root0="FORCE_HIGHLIGHTING" />
@@ -108,10 +119,13 @@
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/QuickSort/NaiveQuickSort.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/QuickSort/QuickSortCommon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/SortProblems/QuickSort/RandomQuickSort.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/StackProblems/DailyTemperaturesProblem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/StackProblems/ValidParenthesesProblem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.GetHandsDirty/WordFrequency.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.MyDataStructures/LeetCodeStructures/ListNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.MyDataStructures/MyBinaryTree.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.MyDataStructures/MyGraphNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA.MyDataStructures/MyMinStack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DSA.MyDataStructures/MyNode.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
@@ -128,7 +142,6 @@
     &quot;39315c9c-70f1-4756-90b8-0a2f512df61f.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.6967213&quot;,
     &quot;git-widget-placeholder&quot;: &quot;feature/binary-search&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -147,7 +160,11 @@
       <option name="presentableId" value="Default" />
       <updated>1757039612967</updated>
       <workItem from="1757039614792" duration="36646000" />
-      <workItem from="1757529305225" duration="83284000" />
+      <workItem from="1757529305225" duration="93160000" />
+      <workItem from="1758030814641" duration="17252000" />
+      <workItem from="1758288195174" duration="3401000" />
+      <workItem from="1758305732080" duration="19702000" />
+      <workItem from="1758916780999" duration="601000" />
     </task>
     <task id="LOCAL-00001" summary="DFS problems">
       <option name="closed" value="true" />
@@ -365,7 +382,103 @@
       <option name="project" value="LOCAL" />
       <updated>1757817323501</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Rename linked node">
+      <option name="closed" value="true" />
+      <created>1757945371573</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945371573</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Fix algorithm removing blank space">
+      <option name="closed" value="true" />
+      <created>1757945398398</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945398398</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Create a stack implementation">
+      <option name="closed" value="true" />
+      <created>1757945416239</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945416239</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Fix">
+      <option name="closed" value="true" />
+      <created>1757945425373</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945425373</updated>
+    </task>
+    <task id="LOCAL-00032" summary="How to sum two linked lists">
+      <option name="closed" value="true" />
+      <created>1758209490959</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1758209490959</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Fibonacci problems">
+      <option name="closed" value="true" />
+      <created>1758209972029</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1758209972029</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Add stack problem">
+      <option name="closed" value="true" />
+      <created>1758210110438</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1758210110438</updated>
+    </task>
+    <task id="LOCAL-00035" summary="MIn stack implementation">
+      <option name="closed" value="true" />
+      <created>1758210415272</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1758210415272</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Add anagram problems">
+      <option name="closed" value="true" />
+      <created>1758210611060</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1758210611060</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Add anagram problems">
+      <option name="closed" value="true" />
+      <created>1758210624483</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1758210624483</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Add LeetCode reference">
+      <option name="closed" value="true" />
+      <created>1758210645286</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1758210645286</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Fix null reference">
+      <option name="closed" value="true" />
+      <created>1758210660008</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1758210660008</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,17 +487,6 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BFS problems" />
-    <MESSAGE value="Move all tests to same project" />
-    <MESSAGE value="Clone a graph" />
-    <MESSAGE value="Implement min heap" />
-    <MESSAGE value="Implement generic graph" />
-    <MESSAGE value="Implement max heap" />
-    <MESSAGE value="Empty graph problemas" />
-    <MESSAGE value="Initial description" />
-    <MESSAGE value="Hashmap initial description" />
-    <MESSAGE value="Improve solution name" />
-    <MESSAGE value="Move structure to a self class" />
     <MESSAGE value="Implement a minHeap structure" />
     <MESSAGE value="Implement a maxHeap structure" />
     <MESSAGE value="Implement a kth highest scores using my minHeap data structure" />
@@ -399,7 +501,18 @@
     <MESSAGE value="Problem reference" />
     <MESSAGE value="Graph dfs problem" />
     <MESSAGE value="Dijkstra problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dijkstra problem" />
+    <MESSAGE value="Rename linked node" />
+    <MESSAGE value="Fix algorithm removing blank space" />
+    <MESSAGE value="Create a stack implementation" />
+    <MESSAGE value="Fix" />
+    <MESSAGE value="How to sum two linked lists" />
+    <MESSAGE value="Fibonacci problems" />
+    <MESSAGE value="Add stack problem" />
+    <MESSAGE value="MIn stack implementation" />
+    <MESSAGE value="Add anagram problems" />
+    <MESSAGE value="Add LeetCode reference" />
+    <MESSAGE value="Fix null reference" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix null reference" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -490,16 +603,94 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/DSA.GetHandsDirty/ArrayProblems/StringProblems/ReverseWordsPositionsInAString.cs</url>
-          <line>42</line>
+          <line>45</line>
           <properties documentPath="$PROJECT_DIR$/DSA.GetHandsDirty/ArrayProblems/StringProblems/ReverseWordsPositionsInAString.cs" containingFunctionPresentation="Method 'ReverseRemovingSpace'">
             <startOffsets>
-              <option value="1227" />
+              <option value="1282" />
             </startOffsets>
             <endOffsets>
-              <option value="1258" />
+              <option value="1313" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DSA.MyDataStructures/MyMinStack.cs</url>
+          <line>26</line>
+          <properties documentPath="$PROJECT_DIR$/DSA.MyDataStructures/MyMinStack.cs" containingFunctionPresentation="Method 'Pop'">
+            <startOffsets>
+              <option value="524" />
+            </startOffsets>
+            <endOffsets>
+              <option value="546" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DSA.MyDataStructures/MyMinStack.cs</url>
+          <line>41</line>
+          <properties documentPath="$PROJECT_DIR$/DSA.MyDataStructures/MyMinStack.cs" containingFunctionPresentation="Method 'GetMin'">
+            <startOffsets>
+              <option value="818" />
+            </startOffsets>
+            <endOffsets>
+              <option value="819" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DSA.MyDataStructures/MyMinStack.cs</url>
+          <line>40</line>
+          <properties documentPath="$PROJECT_DIR$/DSA.MyDataStructures/MyMinStack.cs" containingFunctionPresentation="Method 'GetMin'">
+            <startOffsets>
+              <option value="792" />
+            </startOffsets>
+            <endOffsets>
+              <option value="813" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DSA.GetHandsDirty/StackProblems/DailyTemperaturesProblem.cs</url>
+          <line>10</line>
+          <properties documentPath="$PROJECT_DIR$/DSA.GetHandsDirty/StackProblems/DailyTemperaturesProblem.cs" containingFunctionPresentation="Method 'DailyTemperatures'">
+            <startOffsets>
+              <option value="249" />
+            </startOffsets>
+            <endOffsets>
+              <option value="303" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/AddTwoNumbersProblem.cs</url>
+          <line>22</line>
+          <properties documentPath="$PROJECT_DIR$/DSA.GetHandsDirty/LinkedListProblems/AddTwoNumbersProblem.cs" containingFunctionPresentation="Method 'AddTwoNumbers'">
+            <startOffsets>
+              <option value="714" />
+            </startOffsets>
+            <endOffsets>
+              <option value="748" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DSA.GetHandsDirty/DynamicProgrammingTechnique/KnapsackProblem.cs</url>
+          <line>16</line>
+          <properties documentPath="$PROJECT_DIR$/DSA.GetHandsDirty/DynamicProgrammingTechnique/KnapsackProblem.cs" containingFunctionPresentation="Method 'CoinChange'">
+            <startOffsets>
+              <option value="618" />
+            </startOffsets>
+            <endOffsets>
+              <option value="634" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="65" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
